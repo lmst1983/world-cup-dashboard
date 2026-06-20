@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-20T10:01:58Z",
+  "updatedAt": "2026-06-20T20:07:03Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,10 +9,10 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 32,
+    "playedMatches": 33,
     "totalMatches": 72,
-    "goals": 96,
-    "averageGoals": 3.0
+    "goals": 102,
+    "averageGoals": 3.09
   },
   "groups": [
     {
@@ -365,35 +365,35 @@
       "teams": [
         {
           "rank": 1,
-          "name": "瑞典",
-          "english": "Sweden",
-          "flag": "🇸🇪",
-          "played": 1,
-          "won": 1,
-          "draw": 0,
-          "lost": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 1,
-          "goalDifference": 4,
-          "points": 3,
-          "colorA": "#006aa7",
-          "colorB": "#fecc00"
-        },
-        {
-          "rank": 2,
           "name": "荷兰",
           "english": "Netherlands",
           "flag": "🇳🇱",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "draw": 1,
           "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 1,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 4,
           "colorA": "#f36c21",
           "colorB": "#21468b"
+        },
+        {
+          "rank": 2,
+          "name": "瑞典",
+          "english": "Sweden",
+          "flag": "🇸🇪",
+          "played": 2,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "goalsFor": 6,
+          "goalsAgainst": 6,
+          "goalDifference": 0,
+          "points": 3,
+          "colorA": "#006aa7",
+          "colorB": "#fecc00"
         },
         {
           "rank": 3,
