@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="2026 世界杯小组赛积分驾驶舱，展示 12 个小组、48 支球队的实时积分概览。"
+    />
+    <title>2026 世界杯积分驾驶舱</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#" aria-label="返回驾驶舱首页">
+          <span class="brand-mark" aria-hidden="true">
+            <span>26</span>
+          </span>
+          <span>
+            <strong>WORLD CUP</strong>
+            <small>GROUP STAGE</small>
+          </span>
+        </a>
+
+        <nav class="side-nav" aria-label="页面导航">
+          <a class="side-nav__item is-active" href="#overview">
+            <span class="nav-icon">◫</span>
+            <span>赛事总览</span>
+          </a>
+          <a class="side-nav__item" href="#groups">
+            <span class="nav-icon">⌗</span>
+            <span>小组积分</span>
+          </a>
+          <a class="side-nav__item" href="#status">
+            <span class="nav-icon">◉</span>
+            <span>晋级状态</span>
+          </a>
+        </nav>
+
+        <div class="sidebar-groups">
+          <p>快速定位</p>
+          <div class="mini-group-grid" id="miniGroupGrid"></div>
+        </div>
+
+        <div class="sidebar-card">
+          <span class="sidebar-card__eyebrow">小组赛进度</span>
+          <strong id="progressCount">-- / 72</strong>
+          <div class="progress-track" id="progressTrack" aria-label="正在载入小组赛进度">
+            <span id="progressBar" style="width: 0%"></span>
+          </div>
+          <small id="progressLabel">正在载入数据…</small>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <button class="menu-button" id="menuButton" type="button" aria-label="展开导航">
+            <span></span><span></span><span></span>
+          </button>
+          <div class="topbar__context">
+            <span class="eyebrow">FIFA WORLD CUP 2026</span>
+            <span class="topbar__divider"></span>
+            <span class="topbar__date" id="topbarDate">正在载入更新时间…</span>
+          </div>
+          <button class="live-pill" id="refreshButton" type="button" aria-live="polite">
+            <span class="live-dot"></span>
+            <span id="syncStatus">正在同步</span>
+          </button>
+        </header>
+
+        <section class="hero" id="overview">
+          <div class="hero__copy">
+            <div class="section-kicker">
+              <span></span>
+              MATCH CENTER
+            </div>
+            <h1>小组赛<br /><em>战况总览</em></h1>
+            <p>聚合 12 个小组、48 支国家队的积分、净胜球与晋级态势。</p>
+          </div>
+
+          <div class="hero__visual" aria-hidden="true">
+            <div class="orbit orbit--outer">
+              <span>🇲🇽</span><span>🇧🇷</span><span>🇺🇸</span><span>🇩🇪</span>
+            </div>
+            <div class="orbit orbit--inner">
+              <span>🇦🇷</span><span>🏴</span><span>🇫🇷</span>
+            </div>
+            <div class="trophy-ball">
+              <span>26</span>
+              <small>UNITED</small>
+            </div>
+          </div>
+
+          <div class="hero-stats">
+            <article>
+              <span class="stat-icon stat-icon--teams">◎</span>
+              <div>
+                <strong id="teamCount">--</strong>
+                <small>参赛球队</small>
+              </div>
+            </article>
+            <article>
+              <span class="stat-icon stat-icon--matches">⌁</span>
+              <div>
+                <strong id="matchCount">--</strong>
+                <small>已赛场次</small>
+              </div>
+            </article>
+            <article>
+              <span class="stat-icon stat-icon--goals">◆</span>
+              <div>
+                <strong id="goalCount">--</strong>
+                <small>累计进球</small>
+              </div>
+            </article>
+            <article>
+              <span class="stat-icon stat-icon--average">↗</span>
+              <div>
+                <strong id="goalAverage">--</strong>
+                <small>场均进球</small>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="groups-section" id="groups">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">GROUP STANDINGS</span>
+              <h2>各组积分</h2>
+            </div>
+            <div class="legend" aria-label="图例">
+              <span><i class="legend-dot legend-dot--qualified"></i>小组头名</span>
+              <span><i class="legend-dot legend-dot--leader"></i>小组前二</span>
+            </div>
+          </div>
+
+          <div class="toolbar">
+            <div class="filter-row" id="groupFilters" aria-label="按小组筛选"></div>
+            <label class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <input id="teamSearch" type="search" placeholder="搜索国家队…" autocomplete="off" />
+            </label>
+          </div>
+
+          <div class="groups-grid" id="groupsGrid"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <span>⌕</span>
+            <strong id="emptyStateTitle">未找到匹配的国家队</strong>
+            <small id="emptyStateMessage">请尝试其他关键词或切换小组</small>
+          </div>
+        </section>
+
+        <section class="status-panel" id="status">
+          <div class="status-panel__icon">✓</div>
+          <div>
+            <span class="eyebrow">QUALIFICATION UPDATE</span>
+            <h3 id="statusHeadline">正在整理最新积分态势</h3>
+            <p id="statusSummary">数据载入后将自动更新小组排名与赛事进度。</p>
+          </div>
+          <div class="qualified-flags" id="leaderFlags" aria-label="当前小组领头球队"></div>
+        </section>
+
+        <footer>
+          <span id="footerUpdatedAt">等待首次数据同步</span>
+          <span id="footerSource">数据源：尚未连接</span>
+        </footer>
+      </main>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
