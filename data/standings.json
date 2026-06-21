@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-20T22:48:06Z",
+  "updatedAt": "2026-06-21T05:16:56Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,10 +9,10 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 34,
+    "playedMatches": 35,
     "totalMatches": 72,
     "goals": 105,
-    "averageGoals": 3.09
+    "averageGoals": 3.0
   },
   "groups": [
     {
@@ -331,14 +331,14 @@
           "name": "厄瓜多尔",
           "english": "Ecuador",
           "flag": "🇪🇨",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "goalsFor": 0,
           "goalsAgainst": 1,
           "goalDifference": -1,
-          "points": 0,
+          "points": 1,
           "colorA": "#ffdd00",
           "colorB": "#0033a0"
         },
@@ -347,14 +347,14 @@
           "name": "库拉索",
           "english": "Curaçao",
           "flag": "🇨🇼",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "goalsFor": 1,
           "goalsAgainst": 7,
           "goalDifference": -6,
-          "points": 0,
+          "points": 1,
           "colorA": "#002b7f",
           "colorB": "#f9e300"
         }
