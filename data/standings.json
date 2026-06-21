@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-21T09:06:15Z",
+  "updatedAt": "2026-06-21T18:57:32Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,10 +9,10 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 36,
+    "playedMatches": 37,
     "totalMatches": 72,
-    "goals": 109,
-    "averageGoals": 3.03
+    "goals": 114,
+    "averageGoals": 3.08
   },
   "groups": [
     {
@@ -503,6 +503,22 @@
       "teams": [
         {
           "rank": 1,
+          "name": "西班牙",
+          "english": "Spain",
+          "flag": "🇪🇸",
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 0,
+          "goalDifference": 5,
+          "points": 4,
+          "colorA": "#aa151b",
+          "colorB": "#f1bf00"
+        },
+        {
+          "rank": 2,
           "name": "乌拉圭",
           "english": "Uruguay",
           "flag": "🇺🇾",
@@ -518,39 +534,7 @@
           "colorB": "#ffffff"
         },
         {
-          "rank": 2,
-          "name": "沙特阿拉伯",
-          "english": "Saudi Arabia",
-          "flag": "🇸🇦",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 1,
-          "colorA": "#006c35",
-          "colorB": "#ffffff"
-        },
-        {
           "rank": 3,
-          "name": "西班牙",
-          "english": "Spain",
-          "flag": "🇪🇸",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 1,
-          "colorA": "#aa151b",
-          "colorB": "#f1bf00"
-        },
-        {
-          "rank": 4,
           "name": "佛得角",
           "english": "Cabo Verde",
           "flag": "🇨🇻",
@@ -564,6 +548,22 @@
           "points": 1,
           "colorA": "#003893",
           "colorB": "#cf2027"
+        },
+        {
+          "rank": 4,
+          "name": "沙特阿拉伯",
+          "english": "Saudi Arabia",
+          "flag": "🇸🇦",
+          "played": 2,
+          "won": 0,
+          "draw": 1,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 6,
+          "goalDifference": -5,
+          "points": 1,
+          "colorA": "#006c35",
+          "colorB": "#ffffff"
         }
       ]
     },
