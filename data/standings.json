@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-21T18:57:32Z",
+  "updatedAt": "2026-06-21T21:50:12Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,10 +9,10 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 37,
+    "playedMatches": 38,
     "totalMatches": 72,
-    "goals": 114,
-    "averageGoals": 3.08
+    "goals": 113,
+    "averageGoals": 2.97
   },
   "groups": [
     {
@@ -437,19 +437,35 @@
           "name": "伊朗",
           "english": "IR Iran",
           "flag": "🇮🇷",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "goalsFor": 2,
           "goalsAgainst": 2,
           "goalDifference": 0,
-          "points": 1,
+          "points": 2,
           "colorA": "#239f40",
           "colorB": "#da0000"
         },
         {
           "rank": 2,
+          "name": "比利时",
+          "english": "Belgium",
+          "flag": "🇧🇪",
+          "played": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 2,
+          "colorA": "#111111",
+          "colorB": "#fdda24"
+        },
+        {
+          "rank": 3,
           "name": "新西兰",
           "english": "New Zealand",
           "flag": "🇳🇿",
@@ -463,22 +479,6 @@
           "points": 1,
           "colorA": "#111111",
           "colorB": "#ffffff"
-        },
-        {
-          "rank": 3,
-          "name": "比利时",
-          "english": "Belgium",
-          "flag": "🇧🇪",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 1,
-          "colorA": "#111111",
-          "colorB": "#fdda24"
         },
         {
           "rank": 4,
@@ -510,9 +510,9 @@
           "won": 1,
           "draw": 1,
           "lost": 0,
-          "goalsFor": 5,
+          "goalsFor": 4,
           "goalsAgainst": 0,
-          "goalDifference": 5,
+          "goalDifference": 4,
           "points": 4,
           "colorA": "#aa151b",
           "colorB": "#f1bf00"
@@ -559,8 +559,8 @@
           "draw": 1,
           "lost": 1,
           "goalsFor": 1,
-          "goalsAgainst": 6,
-          "goalDifference": -5,
+          "goalsAgainst": 5,
+          "goalDifference": -4,
           "points": 1,
           "colorA": "#006c35",
           "colorB": "#ffffff"
