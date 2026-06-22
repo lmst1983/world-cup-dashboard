@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-22T00:21:18Z",
+  "updatedAt": "2026-06-22T05:39:15Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,10 +9,10 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 39,
+    "playedMatches": 40,
     "totalMatches": 72,
-    "goals": 117,
-    "averageGoals": 3.0
+    "goals": 121,
+    "averageGoals": 3.02
   },
   "groups": [
     {
@@ -434,6 +434,22 @@
       "teams": [
         {
           "rank": 1,
+          "name": "埃及",
+          "english": "Egypt",
+          "flag": "🇪🇬",
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 2,
+          "goalDifference": 2,
+          "points": 4,
+          "colorA": "#ce1126",
+          "colorB": "#111111"
+        },
+        {
+          "rank": 2,
           "name": "伊朗",
           "english": "IR Iran",
           "flag": "🇮🇷",
@@ -449,7 +465,7 @@
           "colorB": "#da0000"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "比利时",
           "english": "Belgium",
           "flag": "🇧🇪",
@@ -465,36 +481,20 @@
           "colorB": "#fdda24"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "新西兰",
           "english": "New Zealand",
           "flag": "🇳🇿",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
+          "lost": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2,
           "points": 1,
           "colorA": "#111111",
           "colorB": "#ffffff"
-        },
-        {
-          "rank": 4,
-          "name": "埃及",
-          "english": "Egypt",
-          "flag": "🇪🇬",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 1,
-          "colorA": "#ce1126",
-          "colorB": "#111111"
         }
       ]
     },
