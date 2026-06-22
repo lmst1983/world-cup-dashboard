@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-22T05:39:15Z",
+  "updatedAt": "2026-06-22T19:44:58Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,10 +9,10 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 40,
+    "playedMatches": 41,
     "totalMatches": 72,
-    "goals": 121,
-    "averageGoals": 3.02
+    "goals": 123,
+    "averageGoals": 3.0
   },
   "groups": [
     {
@@ -644,14 +644,14 @@
           "name": "阿根廷",
           "english": "Argentina",
           "flag": "🇦🇷",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "draw": 0,
           "lost": 0,
-          "goalsFor": 3,
+          "goalsFor": 5,
           "goalsAgainst": 0,
-          "goalDifference": 3,
-          "points": 3,
+          "goalDifference": 5,
+          "points": 6,
           "colorA": "#74acdf",
           "colorB": "#ffffff"
         },
@@ -660,13 +660,13 @@
           "name": "奥地利",
           "english": "Austria",
           "flag": "🇦🇹",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "goalsFor": 3,
-          "goalsAgainst": 1,
-          "goalDifference": 2,
+          "goalsAgainst": 3,
+          "goalDifference": 0,
           "points": 3,
           "colorA": "#ed2939",
           "colorB": "#ffffff"
