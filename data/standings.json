@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-21T21:50:12Z",
+  "updatedAt": "2026-06-22T00:21:18Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,10 +9,10 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 38,
+    "playedMatches": 39,
     "totalMatches": 72,
-    "goals": 113,
-    "averageGoals": 2.97
+    "goals": 117,
+    "averageGoals": 3.0
   },
   "groups": [
     {
@@ -522,14 +522,14 @@
           "name": "乌拉圭",
           "english": "Uruguay",
           "flag": "🇺🇾",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
           "goalDifference": 0,
-          "points": 1,
+          "points": 2,
           "colorA": "#5bc0eb",
           "colorB": "#ffffff"
         },
@@ -538,14 +538,14 @@
           "name": "佛得角",
           "english": "Cabo Verde",
           "flag": "🇨🇻",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
           "goalDifference": 0,
-          "points": 1,
+          "points": 2,
           "colorA": "#003893",
           "colorB": "#cf2027"
         },
