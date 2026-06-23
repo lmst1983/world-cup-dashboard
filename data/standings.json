@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-22T19:44:58Z",
+  "updatedAt": "2026-06-23T01:23:36Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,9 +9,9 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 41,
+    "playedMatches": 42,
     "totalMatches": 72,
-    "goals": 123,
+    "goals": 126,
     "averageGoals": 3.0
   },
   "groups": [
@@ -572,6 +572,22 @@
       "teams": [
         {
           "rank": 1,
+          "name": "法国",
+          "english": "France",
+          "flag": "🇫🇷",
+          "played": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5,
+          "points": 6,
+          "colorA": "#0055a4",
+          "colorB": "#ef4135"
+        },
+        {
+          "rank": 2,
           "name": "挪威",
           "english": "Norway",
           "flag": "🇳🇴",
@@ -585,22 +601,6 @@
           "points": 3,
           "colorA": "#ba0c2f",
           "colorB": "#00205b"
-        },
-        {
-          "rank": 2,
-          "name": "法国",
-          "english": "France",
-          "flag": "🇫🇷",
-          "played": 1,
-          "won": 1,
-          "draw": 0,
-          "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 1,
-          "goalDifference": 2,
-          "points": 3,
-          "colorA": "#0055a4",
-          "colorB": "#ef4135"
         },
         {
           "rank": 3,
@@ -623,13 +623,13 @@
           "name": "伊拉克",
           "english": "Iraq",
           "flag": "🇮🇶",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "goalsFor": 1,
-          "goalsAgainst": 4,
-          "goalDifference": -3,
+          "goalsAgainst": 7,
+          "goalDifference": -6,
           "points": 0,
           "colorA": "#ce1126",
           "colorB": "#111111"
