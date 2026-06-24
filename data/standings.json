@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-24T01:30:02Z",
+  "updatedAt": "2026-06-24T05:42:31Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,10 +9,10 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 47,
+    "playedMatches": 48,
     "totalMatches": 72,
-    "goals": 140,
-    "averageGoals": 2.98
+    "goals": 141,
+    "averageGoals": 2.94
   },
   "groups": [
     {
@@ -710,6 +710,22 @@
       "teams": [
         {
           "rank": 1,
+          "name": "哥伦比亚",
+          "english": "Colombia",
+          "flag": "🇨🇴",
+          "played": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "points": 6,
+          "colorA": "#fcd116",
+          "colorB": "#003893"
+        },
+        {
+          "rank": 2,
           "name": "葡萄牙",
           "english": "Portugal",
           "flag": "🇵🇹",
@@ -725,33 +741,17 @@
           "colorB": "#da291c"
         },
         {
-          "rank": 2,
-          "name": "哥伦比亚",
-          "english": "Colombia",
-          "flag": "🇨🇴",
-          "played": 1,
-          "won": 1,
-          "draw": 0,
-          "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 1,
-          "goalDifference": 2,
-          "points": 3,
-          "colorA": "#fcd116",
-          "colorB": "#003893"
-        },
-        {
           "rank": 3,
           "name": "刚果（金）",
           "english": "DR Congo",
           "flag": "🇨🇩",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
           "points": 1,
           "colorA": "#007fff",
           "colorB": "#ce1021"
