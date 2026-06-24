@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-23T22:37:54Z",
+  "updatedAt": "2026-06-24T01:30:02Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,10 +9,10 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 46,
+    "playedMatches": 47,
     "totalMatches": 72,
-    "goals": 139,
-    "averageGoals": 3.02
+    "goals": 140,
+    "averageGoals": 2.98
   },
   "groups": [
     {
@@ -811,35 +811,35 @@
         },
         {
           "rank": 3,
-          "name": "巴拿马",
-          "english": "Panama",
-          "flag": "🇵🇦",
-          "played": 1,
-          "won": 0,
-          "draw": 0,
-          "lost": 1,
-          "goalsFor": 0,
-          "goalsAgainst": 1,
-          "goalDifference": -1,
-          "points": 0,
-          "colorA": "#d21034",
-          "colorB": "#005293"
-        },
-        {
-          "rank": 4,
           "name": "克罗地亚",
           "english": "Croatia",
           "flag": "🇭🇷",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "draw": 0,
           "lost": 1,
-          "goalsFor": 2,
+          "goalsFor": 3,
           "goalsAgainst": 4,
-          "goalDifference": -2,
-          "points": 0,
+          "goalDifference": -1,
+          "points": 3,
           "colorA": "#ff0000",
           "colorB": "#171796"
+        },
+        {
+          "rank": 4,
+          "name": "巴拿马",
+          "english": "Panama",
+          "flag": "🇵🇦",
+          "played": 2,
+          "won": 0,
+          "draw": 0,
+          "lost": 2,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2,
+          "points": 0,
+          "colorA": "#d21034",
+          "colorB": "#005293"
         }
       ]
     }
