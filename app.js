@@ -6,9 +6,11 @@ const scheduleFilters = document.querySelector("#scheduleFilters");
 const miniGroupGrid = document.querySelector("#miniGroupGrid");
 const groupsGrid = document.querySelector("#groupsGrid");
 const matchesList = document.querySelector("#matchesList");
+const latestMatchesList = document.querySelector("#latestMatchesList");
 const teamSearch = document.querySelector("#teamSearch");
 const emptyState = document.querySelector("#emptyState");
 const scheduleEmpty = document.querySelector("#scheduleEmpty");
+const latestEmpty = document.querySelector("#latestEmpty");
 const bracketEmpty = document.querySelector("#bracketEmpty");
 const emptyStateTitle = document.querySelector("#emptyStateTitle");
 const emptyStateMessage = document.querySelector("#emptyStateMessage");
@@ -68,6 +70,15 @@ function formatMatchTime(value) {
 
 function isFinished(match) {
   return ["FINISHED", "AWARDED"].includes(match.status);
+}
+
+function isLive(match) {
+  return ["IN_PLAY", "PAUSED"].includes(match.status);
+}
+
+function matchTimeValue(match) {
+  const time = new Date(match.utcDate).getTime();
+  return Number.isNaN(time) ? 0 : time;
 }
 
 function scoreText(match) {
@@ -289,6 +300,31 @@ function renderSchedule() {
   scheduleEmpty.hidden = visibleMatches.length > 0;
 }
 
+function latestMatchItems(limit = 4) {
+  const liveMatches = matches
+    .filter(isLive)
+    .sort((a, b) => matchTimeValue(a) - matchTimeValue(b));
+  const finishedMatches = matches
+    .filter(isFinished)
+    .sort((a, b) => matchTimeValue(b) - matchTimeValue(a));
+  const upcomingFocus = dashboardData?.nextMatch ? [dashboardData.nextMatch] : [];
+
+  const seen = new Set();
+  return [...liveMatches, ...finishedMatches, ...upcomingFocus]
+    .filter((match) => {
+      if (!match?.id || seen.has(match.id)) return false;
+      seen.add(match.id);
+      return true;
+    })
+    .slice(0, limit);
+}
+
+function renderLatestMatches() {
+  const items = latestMatchItems();
+  latestMatchesList.innerHTML = items.map((match) => matchCard(match, { compact: true })).join("");
+  latestEmpty.hidden = items.length > 0;
+}
+
 function renderNextMatch() {
   const nextMatch = dashboardData?.nextMatch || matches.find((match) => !isFinished(match));
 
@@ -361,14 +397,17 @@ function renderStatus() {
   const completedGroups = groups.filter((group) => group.teams.every((item) => item.played >= 3));
   const mostAdvanced = Math.max(...groups.flatMap((group) => group.teams.map((item) => item.played)), 0);
   const nextMatch = dashboardData?.nextMatch;
+  const knockoutRounds = dashboardData?.knockout?.rounds || [];
 
   document.querySelector("#statusHeadline").textContent = nextMatch
     ? `下一场：${nextMatch.homeTeam.name} 对 ${nextMatch.awayTeam.name}`
+    : knockoutRounds.length
+      ? `已生成 ${knockoutRounds.length} 轮淘汰赛路径`
     : completedGroups.length === groups.length
       ? "小组赛已完成，等待或展示淘汰赛路径"
       : `最新积分已同步，当前最高完成 ${mostAdvanced} 轮`;
   document.querySelector("#statusSummary").textContent =
-    "全赛程、淘汰赛比分与小组积分随数据源自动刷新；最终排名以赛事官方结果为准。";
+    "手机端优先展示晋级路径、下一场和最新赛况；小组积分已作为归档移至尾部。";
   document.querySelector("#leaderFlags").innerHTML = leaders
     .slice(0, 5)
     .map((item) => `<span title="${escapeHtml(item.group)}组 · ${escapeHtml(item.name)}">${escapeHtml(item.flag)}</span>`)
@@ -394,8 +433,9 @@ function applyData(data) {
   buildControls();
   renderOverview(data);
   renderNextMatch();
-  renderSchedule();
   renderBracket();
+  renderLatestMatches();
+  renderSchedule();
   renderGroups();
   renderStatus();
 }

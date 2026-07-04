@@ -28,21 +28,25 @@
             <span class="nav-icon">◫</span>
             <span>赛事总览</span>
           </a>
-          <a class="side-nav__item" href="#groups">
-            <span class="nav-icon">⌗</span>
-            <span>小组积分</span>
-          </a>
           <a class="side-nav__item" href="#next-match">
             <span class="nav-icon">↗</span>
             <span>下一场</span>
+          </a>
+          <a class="side-nav__item" href="#bracket">
+            <span class="nav-icon">◇</span>
+            <span>晋级路径</span>
+          </a>
+          <a class="side-nav__item" href="#latest">
+            <span class="nav-icon">◉</span>
+            <span>最新赛况</span>
           </a>
           <a class="side-nav__item" href="#schedule">
             <span class="nav-icon">☷</span>
             <span>全赛程</span>
           </a>
-          <a class="side-nav__item" href="#bracket">
-            <span class="nav-icon">◇</span>
-            <span>晋级路径</span>
+          <a class="side-nav__item" href="#groups">
+            <span class="nav-icon">⌗</span>
+            <span>小组积分</span>
           </a>
         </nav>
 
@@ -136,11 +140,55 @@
           <div class="section-heading">
             <div>
               <span class="eyebrow">NEXT MATCH</span>
-              <h2>下一场比赛</h2>
+              <h2>下一场 / 当前焦点</h2>
             </div>
           </div>
           <div class="next-match-card" id="nextMatchCard">
             <span class="placeholder-line">正在读取下一场比赛…</span>
+          </div>
+        </section>
+
+        <section class="bracket-section" id="bracket">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">KNOCKOUT PATH</span>
+              <h2>淘汰赛晋级路径</h2>
+            </div>
+          </div>
+          <div class="bracket-grid" id="bracketGrid"></div>
+          <div class="empty-state" id="bracketEmpty" hidden>
+            <span>◇</span>
+            <strong>等待淘汰赛赛程</strong>
+            <small>出现 32 强、16 强、1/4 决赛等数据后会自动生成路径图</small>
+          </div>
+        </section>
+
+        <section class="status-panel" id="status">
+          <div class="status-panel__icon">✓</div>
+          <div>
+            <span class="eyebrow">QUALIFICATION UPDATE</span>
+            <h3 id="statusHeadline">正在整理最新晋级态势</h3>
+            <p id="statusSummary">数据载入后将自动更新晋级路径与赛事进度。</p>
+          </div>
+          <div class="qualified-flags" id="leaderFlags" aria-label="当前小组领头球队"></div>
+        </section>
+
+        <section class="latest-section" id="latest">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">LATEST RESULTS</span>
+              <h2>最新赛况</h2>
+            </div>
+            <div class="legend" aria-label="最新赛况图例">
+              <span><i class="legend-dot legend-dot--qualified"></i>已完赛</span>
+              <span><i class="legend-dot legend-dot--leader"></i>进行中 / 下一场</span>
+            </div>
+          </div>
+          <div class="latest-matches-list" id="latestMatchesList"></div>
+          <div class="empty-state" id="latestEmpty" hidden>
+            <span>◉</span>
+            <strong>暂未读取到最新赛况</strong>
+            <small>自动更新任务会在数据源返回比赛后补齐这里</small>
           </div>
         </section>
 
@@ -168,26 +216,11 @@
           </div>
         </section>
 
-        <section class="bracket-section" id="bracket">
-          <div class="section-heading">
-            <div>
-              <span class="eyebrow">KNOCKOUT PATH</span>
-              <h2>淘汰赛晋级路径</h2>
-            </div>
-          </div>
-          <div class="bracket-grid" id="bracketGrid"></div>
-          <div class="empty-state" id="bracketEmpty" hidden>
-            <span>◇</span>
-            <strong>等待淘汰赛赛程</strong>
-            <small>出现 32 强、16 强、1/4 决赛等数据后会自动生成路径图</small>
-          </div>
-        </section>
-
         <section class="groups-section" id="groups">
           <div class="section-heading">
             <div>
-              <span class="eyebrow">GROUP STANDINGS</span>
-              <h2>各组积分</h2>
+              <span class="eyebrow">GROUP STANDINGS ARCHIVE</span>
+              <h2>小组赛积分归档</h2>
             </div>
             <div class="legend" aria-label="图例">
               <span><i class="legend-dot legend-dot--qualified"></i>小组头名</span>
@@ -209,16 +242,6 @@
             <strong id="emptyStateTitle">未找到匹配的国家队</strong>
             <small id="emptyStateMessage">请尝试其他关键词或切换小组</small>
           </div>
-        </section>
-
-        <section class="status-panel" id="status">
-          <div class="status-panel__icon">✓</div>
-          <div>
-            <span class="eyebrow">QUALIFICATION UPDATE</span>
-            <h3 id="statusHeadline">正在整理最新积分态势</h3>
-            <p id="statusSummary">数据载入后将自动更新小组排名与赛事进度。</p>
-          </div>
-          <div class="qualified-flags" id="leaderFlags" aria-label="当前小组领头球队"></div>
         </section>
 
         <footer>

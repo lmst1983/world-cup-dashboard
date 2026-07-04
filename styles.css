@@ -578,9 +578,14 @@ a {
 
 .next-match-section,
 .schedule-section,
-.bracket-section {
+.bracket-section,
+.latest-section {
   padding: 42px 0 30px;
   border-bottom: 1px solid var(--line);
+}
+
+.latest-section {
+  padding-top: 34px;
 }
 
 .next-match-card {
@@ -662,10 +667,16 @@ a {
   margin-bottom: 4px;
 }
 
-.matches-list {
+.matches-list,
+.latest-matches-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
+}
+
+.latest-matches-list {
+  margin-top: 22px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .match-card {
@@ -761,6 +772,8 @@ a {
   gap: 13px;
   overflow-x: auto;
   padding-bottom: 8px;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
 }
 
 .bracket-round {
@@ -769,6 +782,7 @@ a {
   background: rgba(255, 255, 255, 0.018);
   border: 1px solid var(--line);
   border-radius: 16px;
+  scroll-snap-align: start;
 }
 
 .bracket-round h3 {
@@ -789,6 +803,7 @@ a {
 
 .groups-section {
   padding: 50px 0 26px;
+  opacity: 0.92;
 }
 
 .section-heading,
@@ -1261,7 +1276,8 @@ footer {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .matches-list {
+  .matches-list,
+  .latest-matches-list {
     grid-template-columns: 1fr;
   }
 
@@ -1310,7 +1326,7 @@ footer {
 
   .hero {
     min-height: auto;
-    padding-top: 42px;
+    padding: 28px 0 24px;
     grid-template-columns: 1fr;
   }
 
@@ -1319,11 +1335,28 @@ footer {
   }
 
   .hero h1 {
-    font-size: 53px;
+    font-size: 44px;
   }
 
   .hero-stats {
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 22px;
+  }
+
+  .hero-stats article {
+    padding: 11px 12px;
+  }
+
+  .next-match-section,
+  .bracket-section,
+  .latest-section,
+  .schedule-section {
+    padding: 30px 0 22px;
+  }
+
+  .next-match-card {
+    margin-top: 16px;
+    padding: 16px;
   }
 
   .next-match-card,
@@ -1339,6 +1372,28 @@ footer {
   .match-team:last-child {
     justify-content: flex-start;
     text-align: left;
+  }
+
+  .latest-matches-list {
+    margin-top: 16px;
+  }
+
+  .bracket-grid {
+    grid-auto-columns: minmax(82vw, 1fr);
+    margin-top: 16px;
+    padding-inline: 1px 18px;
+  }
+
+  .bracket-round {
+    padding: 12px;
+  }
+
+  .match-card {
+    padding: 12px;
+  }
+
+  .match-card--compact .match-main {
+    gap: 9px;
   }
 
   .section-heading {
@@ -1362,7 +1417,13 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .groups-section {
+    padding-top: 36px;
+  }
+
   .status-panel {
+    margin: 18px 0 0;
+    padding: 16px;
     grid-template-columns: auto 1fr;
   }
 
