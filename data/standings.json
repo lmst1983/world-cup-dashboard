@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-06-28T06:01:48Z",
+  "updatedAt": "2026-07-04T03:32:05Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,10 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 72,
-    "totalMatches": 72,
-    "goals": 215,
-    "averageGoals": 2.99
+    "playedMatches": 87,
+    "totalMatches": 104,
+    "goals": 274,
+    "averageGoals": 3.15,
+    "groupPlayedMatches": 72,
+    "groupTotalMatches": 72,
+    "groupGoals": 215,
+    "knockoutPlayedMatches": 15
   },
   "groups": [
     {
@@ -843,5 +847,4431 @@
         }
       ]
     }
-  ]
+  ],
+  "matches": [
+    {
+      "id": "537327",
+      "utcDate": "2026-06-11T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "A组",
+      "stageOrder": 10,
+      "group": "A",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "墨西哥",
+        "english": "Mexico",
+        "flag": "🇲🇽",
+        "colorA": "#006847",
+        "colorB": "#ce1126"
+      },
+      "awayTeam": {
+        "name": "南非",
+        "english": "South Africa",
+        "flag": "🇿🇦",
+        "colorA": "#007749",
+        "colorB": "#ffb81c"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "墨西哥"
+    },
+    {
+      "id": "537328",
+      "utcDate": "2026-06-12T02:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "A组",
+      "stageOrder": 10,
+      "group": "A",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "韩国",
+        "english": "Korea Republic",
+        "flag": "🇰🇷",
+        "colorA": "#0047a0",
+        "colorB": "#cd2e3a"
+      },
+      "awayTeam": {
+        "name": "捷克",
+        "english": "Czechia",
+        "flag": "🇨🇿",
+        "colorA": "#11457e",
+        "colorB": "#d7141a"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "韩国"
+    },
+    {
+      "id": "537333",
+      "utcDate": "2026-06-12T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "B组",
+      "stageOrder": 10,
+      "group": "B",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "加拿大",
+        "english": "Canada",
+        "flag": "🇨🇦",
+        "colorA": "#d80621",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "波黑",
+        "english": "Bosnia & Herzegovina",
+        "flag": "🇧🇦",
+        "colorA": "#002395",
+        "colorB": "#fecb00"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537345",
+      "utcDate": "2026-06-13T01:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "D组",
+      "stageOrder": 10,
+      "group": "D",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "美国",
+        "english": "United States",
+        "flag": "🇺🇸",
+        "colorA": "#3c3b6e",
+        "colorB": "#b22234"
+      },
+      "awayTeam": {
+        "name": "巴拉圭",
+        "english": "Paraguay",
+        "flag": "🇵🇾",
+        "colorA": "#d52b1e",
+        "colorB": "#0038a8"
+      },
+      "score": {
+        "home": 4,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "美国"
+    },
+    {
+      "id": "537334",
+      "utcDate": "2026-06-13T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "B组",
+      "stageOrder": 10,
+      "group": "B",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "卡塔尔",
+        "english": "Qatar",
+        "flag": "🇶🇦",
+        "colorA": "#8a1538",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "瑞士",
+        "english": "Switzerland",
+        "flag": "🇨🇭",
+        "colorA": "#d52b1e",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537339",
+      "utcDate": "2026-06-13T22:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "C组",
+      "stageOrder": 10,
+      "group": "C",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "巴西",
+        "english": "Brazil",
+        "flag": "🇧🇷",
+        "colorA": "#ffdf00",
+        "colorB": "#009c3b"
+      },
+      "awayTeam": {
+        "name": "摩洛哥",
+        "english": "Morocco",
+        "flag": "🇲🇦",
+        "colorA": "#c1272d",
+        "colorB": "#006233"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537340",
+      "utcDate": "2026-06-14T01:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "C组",
+      "stageOrder": 10,
+      "group": "C",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "海地",
+        "english": "Haiti",
+        "flag": "🇭🇹",
+        "colorA": "#00209f",
+        "colorB": "#d21034"
+      },
+      "awayTeam": {
+        "name": "苏格兰",
+        "english": "Scotland",
+        "flag": "🏴",
+        "colorA": "#005eb8",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "苏格兰"
+    },
+    {
+      "id": "537346",
+      "utcDate": "2026-06-14T04:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "D组",
+      "stageOrder": 10,
+      "group": "D",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "澳大利亚",
+        "english": "Australia",
+        "flag": "🇦🇺",
+        "colorA": "#00843d",
+        "colorB": "#ffcd00"
+      },
+      "awayTeam": {
+        "name": "土耳其",
+        "english": "Türkiye",
+        "flag": "🇹🇷",
+        "colorA": "#e30a17",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "澳大利亚"
+    },
+    {
+      "id": "537351",
+      "utcDate": "2026-06-14T17:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "E组",
+      "stageOrder": 10,
+      "group": "E",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "德国",
+        "english": "Germany",
+        "flag": "🇩🇪",
+        "colorA": "#111111",
+        "colorB": "#dd0000"
+      },
+      "awayTeam": {
+        "name": "库拉索",
+        "english": "Curaçao",
+        "flag": "🇨🇼",
+        "colorA": "#002b7f",
+        "colorB": "#f9e300"
+      },
+      "score": {
+        "home": 7,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "德国"
+    },
+    {
+      "id": "537357",
+      "utcDate": "2026-06-14T20:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "F组",
+      "stageOrder": 10,
+      "group": "F",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "荷兰",
+        "english": "Netherlands",
+        "flag": "🇳🇱",
+        "colorA": "#f36c21",
+        "colorB": "#21468b"
+      },
+      "awayTeam": {
+        "name": "日本",
+        "english": "Japan",
+        "flag": "🇯🇵",
+        "colorA": "#bc002d",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 2,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537352",
+      "utcDate": "2026-06-14T23:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "E组",
+      "stageOrder": 10,
+      "group": "E",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "科特迪瓦",
+        "english": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "colorA": "#f77f00",
+        "colorB": "#009e60"
+      },
+      "awayTeam": {
+        "name": "厄瓜多尔",
+        "english": "Ecuador",
+        "flag": "🇪🇨",
+        "colorA": "#ffdd00",
+        "colorB": "#0033a0"
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "科特迪瓦"
+    },
+    {
+      "id": "537358",
+      "utcDate": "2026-06-15T02:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "F组",
+      "stageOrder": 10,
+      "group": "F",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "瑞典",
+        "english": "Sweden",
+        "flag": "🇸🇪",
+        "colorA": "#006aa7",
+        "colorB": "#fecc00"
+      },
+      "awayTeam": {
+        "name": "突尼斯",
+        "english": "Tunisia",
+        "flag": "🇹🇳",
+        "colorA": "#e70013",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 5,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "瑞典"
+    },
+    {
+      "id": "537369",
+      "utcDate": "2026-06-15T16:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "H组",
+      "stageOrder": 10,
+      "group": "H",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "西班牙",
+        "english": "Spain",
+        "flag": "🇪🇸",
+        "colorA": "#aa151b",
+        "colorB": "#f1bf00"
+      },
+      "awayTeam": {
+        "name": "佛得角",
+        "english": "Cabo Verde",
+        "flag": "🇨🇻",
+        "colorA": "#003893",
+        "colorB": "#cf2027"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537363",
+      "utcDate": "2026-06-15T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "G组",
+      "stageOrder": 10,
+      "group": "G",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "比利时",
+        "english": "Belgium",
+        "flag": "🇧🇪",
+        "colorA": "#111111",
+        "colorB": "#fdda24"
+      },
+      "awayTeam": {
+        "name": "埃及",
+        "english": "Egypt",
+        "flag": "🇪🇬",
+        "colorA": "#ce1126",
+        "colorB": "#111111"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537370",
+      "utcDate": "2026-06-15T22:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "H组",
+      "stageOrder": 10,
+      "group": "H",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "沙特阿拉伯",
+        "english": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "colorA": "#006c35",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "乌拉圭",
+        "english": "Uruguay",
+        "flag": "🇺🇾",
+        "colorA": "#5bc0eb",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537364",
+      "utcDate": "2026-06-16T01:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "G组",
+      "stageOrder": 10,
+      "group": "G",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "伊朗",
+        "english": "IR Iran",
+        "flag": "🇮🇷",
+        "colorA": "#239f40",
+        "colorB": "#da0000"
+      },
+      "awayTeam": {
+        "name": "新西兰",
+        "english": "New Zealand",
+        "flag": "🇳🇿",
+        "colorA": "#111111",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 2,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537391",
+      "utcDate": "2026-06-16T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "I组",
+      "stageOrder": 10,
+      "group": "I",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "法国",
+        "english": "France",
+        "flag": "🇫🇷",
+        "colorA": "#0055a4",
+        "colorB": "#ef4135"
+      },
+      "awayTeam": {
+        "name": "塞内加尔",
+        "english": "Senegal",
+        "flag": "🇸🇳",
+        "colorA": "#00853f",
+        "colorB": "#fdef42"
+      },
+      "score": {
+        "home": 3,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "法国"
+    },
+    {
+      "id": "537392",
+      "utcDate": "2026-06-16T22:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "I组",
+      "stageOrder": 10,
+      "group": "I",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "伊拉克",
+        "english": "Iraq",
+        "flag": "🇮🇶",
+        "colorA": "#ce1126",
+        "colorB": "#111111"
+      },
+      "awayTeam": {
+        "name": "挪威",
+        "english": "Norway",
+        "flag": "🇳🇴",
+        "colorA": "#ba0c2f",
+        "colorB": "#00205b"
+      },
+      "score": {
+        "home": 1,
+        "away": 4,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "挪威"
+    },
+    {
+      "id": "537397",
+      "utcDate": "2026-06-17T01:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "J组",
+      "stageOrder": 10,
+      "group": "J",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "阿根廷",
+        "english": "Argentina",
+        "flag": "🇦🇷",
+        "colorA": "#74acdf",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "阿尔及利亚",
+        "english": "Algeria",
+        "flag": "🇩🇿",
+        "colorA": "#006633",
+        "colorB": "#d21034"
+      },
+      "score": {
+        "home": 3,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "阿根廷"
+    },
+    {
+      "id": "537398",
+      "utcDate": "2026-06-17T04:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "J组",
+      "stageOrder": 10,
+      "group": "J",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "奥地利",
+        "english": "Austria",
+        "flag": "🇦🇹",
+        "colorA": "#ed2939",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "约旦",
+        "english": "Jordan",
+        "flag": "🇯🇴",
+        "colorA": "#007a3d",
+        "colorB": "#ce1126"
+      },
+      "score": {
+        "home": 3,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "奥地利"
+    },
+    {
+      "id": "537403",
+      "utcDate": "2026-06-17T17:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "K组",
+      "stageOrder": 10,
+      "group": "K",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "葡萄牙",
+        "english": "Portugal",
+        "flag": "🇵🇹",
+        "colorA": "#046a38",
+        "colorB": "#da291c"
+      },
+      "awayTeam": {
+        "name": "刚果（金）",
+        "english": "DR Congo",
+        "flag": "🇨🇩",
+        "colorA": "#007fff",
+        "colorB": "#ce1021"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537409",
+      "utcDate": "2026-06-17T20:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "L组",
+      "stageOrder": 10,
+      "group": "L",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "英格兰",
+        "english": "England",
+        "flag": "🏴",
+        "colorA": "#ffffff",
+        "colorB": "#ce1124"
+      },
+      "awayTeam": {
+        "name": "克罗地亚",
+        "english": "Croatia",
+        "flag": "🇭🇷",
+        "colorA": "#ff0000",
+        "colorB": "#171796"
+      },
+      "score": {
+        "home": 4,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "英格兰"
+    },
+    {
+      "id": "537410",
+      "utcDate": "2026-06-17T23:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "L组",
+      "stageOrder": 10,
+      "group": "L",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "加纳",
+        "english": "Ghana",
+        "flag": "🇬🇭",
+        "colorA": "#ce1126",
+        "colorB": "#fcd116"
+      },
+      "awayTeam": {
+        "name": "巴拿马",
+        "english": "Panama",
+        "flag": "🇵🇦",
+        "colorA": "#d21034",
+        "colorB": "#005293"
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "加纳"
+    },
+    {
+      "id": "537404",
+      "utcDate": "2026-06-18T02:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "K组",
+      "stageOrder": 10,
+      "group": "K",
+      "matchday": 1,
+      "homeTeam": {
+        "name": "乌兹别克斯坦",
+        "english": "Uzbekistan",
+        "flag": "🇺🇿",
+        "colorA": "#1eb53a",
+        "colorB": "#0099b5"
+      },
+      "awayTeam": {
+        "name": "哥伦比亚",
+        "english": "Colombia",
+        "flag": "🇨🇴",
+        "colorA": "#fcd116",
+        "colorB": "#003893"
+      },
+      "score": {
+        "home": 1,
+        "away": 3,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "哥伦比亚"
+    },
+    {
+      "id": "537329",
+      "utcDate": "2026-06-18T16:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "A组",
+      "stageOrder": 10,
+      "group": "A",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "捷克",
+        "english": "Czechia",
+        "flag": "🇨🇿",
+        "colorA": "#11457e",
+        "colorB": "#d7141a"
+      },
+      "awayTeam": {
+        "name": "南非",
+        "english": "South Africa",
+        "flag": "🇿🇦",
+        "colorA": "#007749",
+        "colorB": "#ffb81c"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537335",
+      "utcDate": "2026-06-18T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "B组",
+      "stageOrder": 10,
+      "group": "B",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "瑞士",
+        "english": "Switzerland",
+        "flag": "🇨🇭",
+        "colorA": "#d52b1e",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "波黑",
+        "english": "Bosnia & Herzegovina",
+        "flag": "🇧🇦",
+        "colorA": "#002395",
+        "colorB": "#fecb00"
+      },
+      "score": {
+        "home": 4,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "瑞士"
+    },
+    {
+      "id": "537336",
+      "utcDate": "2026-06-18T22:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "B组",
+      "stageOrder": 10,
+      "group": "B",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "加拿大",
+        "english": "Canada",
+        "flag": "🇨🇦",
+        "colorA": "#d80621",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "卡塔尔",
+        "english": "Qatar",
+        "flag": "🇶🇦",
+        "colorA": "#8a1538",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 6,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "加拿大"
+    },
+    {
+      "id": "537330",
+      "utcDate": "2026-06-19T01:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "A组",
+      "stageOrder": 10,
+      "group": "A",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "墨西哥",
+        "english": "Mexico",
+        "flag": "🇲🇽",
+        "colorA": "#006847",
+        "colorB": "#ce1126"
+      },
+      "awayTeam": {
+        "name": "韩国",
+        "english": "Korea Republic",
+        "flag": "🇰🇷",
+        "colorA": "#0047a0",
+        "colorB": "#cd2e3a"
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "墨西哥"
+    },
+    {
+      "id": "537348",
+      "utcDate": "2026-06-19T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "D组",
+      "stageOrder": 10,
+      "group": "D",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "美国",
+        "english": "United States",
+        "flag": "🇺🇸",
+        "colorA": "#3c3b6e",
+        "colorB": "#b22234"
+      },
+      "awayTeam": {
+        "name": "澳大利亚",
+        "english": "Australia",
+        "flag": "🇦🇺",
+        "colorA": "#00843d",
+        "colorB": "#ffcd00"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "美国"
+    },
+    {
+      "id": "537342",
+      "utcDate": "2026-06-19T22:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "C组",
+      "stageOrder": 10,
+      "group": "C",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "苏格兰",
+        "english": "Scotland",
+        "flag": "🏴",
+        "colorA": "#005eb8",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "摩洛哥",
+        "english": "Morocco",
+        "flag": "🇲🇦",
+        "colorA": "#c1272d",
+        "colorB": "#006233"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "摩洛哥"
+    },
+    {
+      "id": "537341",
+      "utcDate": "2026-06-20T00:30:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "C组",
+      "stageOrder": 10,
+      "group": "C",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "巴西",
+        "english": "Brazil",
+        "flag": "🇧🇷",
+        "colorA": "#ffdf00",
+        "colorB": "#009c3b"
+      },
+      "awayTeam": {
+        "name": "海地",
+        "english": "Haiti",
+        "flag": "🇭🇹",
+        "colorA": "#00209f",
+        "colorB": "#d21034"
+      },
+      "score": {
+        "home": 3,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "巴西"
+    },
+    {
+      "id": "537347",
+      "utcDate": "2026-06-20T03:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "D组",
+      "stageOrder": 10,
+      "group": "D",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "土耳其",
+        "english": "Türkiye",
+        "flag": "🇹🇷",
+        "colorA": "#e30a17",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "巴拉圭",
+        "english": "Paraguay",
+        "flag": "🇵🇾",
+        "colorA": "#d52b1e",
+        "colorB": "#0038a8"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "巴拉圭"
+    },
+    {
+      "id": "537359",
+      "utcDate": "2026-06-20T17:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "F组",
+      "stageOrder": 10,
+      "group": "F",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "荷兰",
+        "english": "Netherlands",
+        "flag": "🇳🇱",
+        "colorA": "#f36c21",
+        "colorB": "#21468b"
+      },
+      "awayTeam": {
+        "name": "瑞典",
+        "english": "Sweden",
+        "flag": "🇸🇪",
+        "colorA": "#006aa7",
+        "colorB": "#fecc00"
+      },
+      "score": {
+        "home": 5,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "荷兰"
+    },
+    {
+      "id": "537353",
+      "utcDate": "2026-06-20T20:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "E组",
+      "stageOrder": 10,
+      "group": "E",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "德国",
+        "english": "Germany",
+        "flag": "🇩🇪",
+        "colorA": "#111111",
+        "colorB": "#dd0000"
+      },
+      "awayTeam": {
+        "name": "科特迪瓦",
+        "english": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "colorA": "#f77f00",
+        "colorB": "#009e60"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "德国"
+    },
+    {
+      "id": "537354",
+      "utcDate": "2026-06-21T00:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "E组",
+      "stageOrder": 10,
+      "group": "E",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "厄瓜多尔",
+        "english": "Ecuador",
+        "flag": "🇪🇨",
+        "colorA": "#ffdd00",
+        "colorB": "#0033a0"
+      },
+      "awayTeam": {
+        "name": "库拉索",
+        "english": "Curaçao",
+        "flag": "🇨🇼",
+        "colorA": "#002b7f",
+        "colorB": "#f9e300"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537360",
+      "utcDate": "2026-06-21T04:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "F组",
+      "stageOrder": 10,
+      "group": "F",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "突尼斯",
+        "english": "Tunisia",
+        "flag": "🇹🇳",
+        "colorA": "#e70013",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "日本",
+        "english": "Japan",
+        "flag": "🇯🇵",
+        "colorA": "#bc002d",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 0,
+        "away": 4,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "日本"
+    },
+    {
+      "id": "537371",
+      "utcDate": "2026-06-21T16:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "H组",
+      "stageOrder": 10,
+      "group": "H",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "西班牙",
+        "english": "Spain",
+        "flag": "🇪🇸",
+        "colorA": "#aa151b",
+        "colorB": "#f1bf00"
+      },
+      "awayTeam": {
+        "name": "沙特阿拉伯",
+        "english": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "colorA": "#006c35",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 4,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "西班牙"
+    },
+    {
+      "id": "537365",
+      "utcDate": "2026-06-21T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "G组",
+      "stageOrder": 10,
+      "group": "G",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "比利时",
+        "english": "Belgium",
+        "flag": "🇧🇪",
+        "colorA": "#111111",
+        "colorB": "#fdda24"
+      },
+      "awayTeam": {
+        "name": "伊朗",
+        "english": "IR Iran",
+        "flag": "🇮🇷",
+        "colorA": "#239f40",
+        "colorB": "#da0000"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537372",
+      "utcDate": "2026-06-21T22:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "H组",
+      "stageOrder": 10,
+      "group": "H",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "乌拉圭",
+        "english": "Uruguay",
+        "flag": "🇺🇾",
+        "colorA": "#5bc0eb",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "佛得角",
+        "english": "Cabo Verde",
+        "flag": "🇨🇻",
+        "colorA": "#003893",
+        "colorB": "#cf2027"
+      },
+      "score": {
+        "home": 2,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537366",
+      "utcDate": "2026-06-22T01:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "G组",
+      "stageOrder": 10,
+      "group": "G",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "新西兰",
+        "english": "New Zealand",
+        "flag": "🇳🇿",
+        "colorA": "#111111",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "埃及",
+        "english": "Egypt",
+        "flag": "🇪🇬",
+        "colorA": "#ce1126",
+        "colorB": "#111111"
+      },
+      "score": {
+        "home": 1,
+        "away": 3,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "埃及"
+    },
+    {
+      "id": "537399",
+      "utcDate": "2026-06-22T17:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "J组",
+      "stageOrder": 10,
+      "group": "J",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "阿根廷",
+        "english": "Argentina",
+        "flag": "🇦🇷",
+        "colorA": "#74acdf",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "奥地利",
+        "english": "Austria",
+        "flag": "🇦🇹",
+        "colorA": "#ed2939",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "阿根廷"
+    },
+    {
+      "id": "537393",
+      "utcDate": "2026-06-22T21:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "I组",
+      "stageOrder": 10,
+      "group": "I",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "法国",
+        "english": "France",
+        "flag": "🇫🇷",
+        "colorA": "#0055a4",
+        "colorB": "#ef4135"
+      },
+      "awayTeam": {
+        "name": "伊拉克",
+        "english": "Iraq",
+        "flag": "🇮🇶",
+        "colorA": "#ce1126",
+        "colorB": "#111111"
+      },
+      "score": {
+        "home": 3,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "法国"
+    },
+    {
+      "id": "537394",
+      "utcDate": "2026-06-23T00:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "I组",
+      "stageOrder": 10,
+      "group": "I",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "挪威",
+        "english": "Norway",
+        "flag": "🇳🇴",
+        "colorA": "#ba0c2f",
+        "colorB": "#00205b"
+      },
+      "awayTeam": {
+        "name": "塞内加尔",
+        "english": "Senegal",
+        "flag": "🇸🇳",
+        "colorA": "#00853f",
+        "colorB": "#fdef42"
+      },
+      "score": {
+        "home": 3,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "挪威"
+    },
+    {
+      "id": "537400",
+      "utcDate": "2026-06-23T03:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "J组",
+      "stageOrder": 10,
+      "group": "J",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "约旦",
+        "english": "Jordan",
+        "flag": "🇯🇴",
+        "colorA": "#007a3d",
+        "colorB": "#ce1126"
+      },
+      "awayTeam": {
+        "name": "阿尔及利亚",
+        "english": "Algeria",
+        "flag": "🇩🇿",
+        "colorA": "#006633",
+        "colorB": "#d21034"
+      },
+      "score": {
+        "home": 1,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "阿尔及利亚"
+    },
+    {
+      "id": "537405",
+      "utcDate": "2026-06-23T17:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "K组",
+      "stageOrder": 10,
+      "group": "K",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "葡萄牙",
+        "english": "Portugal",
+        "flag": "🇵🇹",
+        "colorA": "#046a38",
+        "colorB": "#da291c"
+      },
+      "awayTeam": {
+        "name": "乌兹别克斯坦",
+        "english": "Uzbekistan",
+        "flag": "🇺🇿",
+        "colorA": "#1eb53a",
+        "colorB": "#0099b5"
+      },
+      "score": {
+        "home": 5,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "葡萄牙"
+    },
+    {
+      "id": "537411",
+      "utcDate": "2026-06-23T20:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "L组",
+      "stageOrder": 10,
+      "group": "L",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "英格兰",
+        "english": "England",
+        "flag": "🏴",
+        "colorA": "#ffffff",
+        "colorB": "#ce1124"
+      },
+      "awayTeam": {
+        "name": "加纳",
+        "english": "Ghana",
+        "flag": "🇬🇭",
+        "colorA": "#ce1126",
+        "colorB": "#fcd116"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537412",
+      "utcDate": "2026-06-23T23:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "L组",
+      "stageOrder": 10,
+      "group": "L",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "巴拿马",
+        "english": "Panama",
+        "flag": "🇵🇦",
+        "colorA": "#d21034",
+        "colorB": "#005293"
+      },
+      "awayTeam": {
+        "name": "克罗地亚",
+        "english": "Croatia",
+        "flag": "🇭🇷",
+        "colorA": "#ff0000",
+        "colorB": "#171796"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "克罗地亚"
+    },
+    {
+      "id": "537406",
+      "utcDate": "2026-06-24T02:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "K组",
+      "stageOrder": 10,
+      "group": "K",
+      "matchday": 2,
+      "homeTeam": {
+        "name": "哥伦比亚",
+        "english": "Colombia",
+        "flag": "🇨🇴",
+        "colorA": "#fcd116",
+        "colorB": "#003893"
+      },
+      "awayTeam": {
+        "name": "刚果（金）",
+        "english": "DR Congo",
+        "flag": "🇨🇩",
+        "colorA": "#007fff",
+        "colorB": "#ce1021"
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "哥伦比亚"
+    },
+    {
+      "id": "537337",
+      "utcDate": "2026-06-24T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "B组",
+      "stageOrder": 10,
+      "group": "B",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "瑞士",
+        "english": "Switzerland",
+        "flag": "🇨🇭",
+        "colorA": "#d52b1e",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "加拿大",
+        "english": "Canada",
+        "flag": "🇨🇦",
+        "colorA": "#d80621",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "瑞士"
+    },
+    {
+      "id": "537338",
+      "utcDate": "2026-06-24T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "B组",
+      "stageOrder": 10,
+      "group": "B",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "波黑",
+        "english": "Bosnia & Herzegovina",
+        "flag": "🇧🇦",
+        "colorA": "#002395",
+        "colorB": "#fecb00"
+      },
+      "awayTeam": {
+        "name": "卡塔尔",
+        "english": "Qatar",
+        "flag": "🇶🇦",
+        "colorA": "#8a1538",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 3,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "波黑"
+    },
+    {
+      "id": "537343",
+      "utcDate": "2026-06-24T22:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "C组",
+      "stageOrder": 10,
+      "group": "C",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "苏格兰",
+        "english": "Scotland",
+        "flag": "🏴",
+        "colorA": "#005eb8",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "巴西",
+        "english": "Brazil",
+        "flag": "🇧🇷",
+        "colorA": "#ffdf00",
+        "colorB": "#009c3b"
+      },
+      "score": {
+        "home": 0,
+        "away": 3,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "巴西"
+    },
+    {
+      "id": "537344",
+      "utcDate": "2026-06-24T22:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "C组",
+      "stageOrder": 10,
+      "group": "C",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "摩洛哥",
+        "english": "Morocco",
+        "flag": "🇲🇦",
+        "colorA": "#c1272d",
+        "colorB": "#006233"
+      },
+      "awayTeam": {
+        "name": "海地",
+        "english": "Haiti",
+        "flag": "🇭🇹",
+        "colorA": "#00209f",
+        "colorB": "#d21034"
+      },
+      "score": {
+        "home": 4,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "摩洛哥"
+    },
+    {
+      "id": "537331",
+      "utcDate": "2026-06-25T01:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "A组",
+      "stageOrder": 10,
+      "group": "A",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "捷克",
+        "english": "Czechia",
+        "flag": "🇨🇿",
+        "colorA": "#11457e",
+        "colorB": "#d7141a"
+      },
+      "awayTeam": {
+        "name": "墨西哥",
+        "english": "Mexico",
+        "flag": "🇲🇽",
+        "colorA": "#006847",
+        "colorB": "#ce1126"
+      },
+      "score": {
+        "home": 0,
+        "away": 3,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "墨西哥"
+    },
+    {
+      "id": "537332",
+      "utcDate": "2026-06-25T01:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "A组",
+      "stageOrder": 10,
+      "group": "A",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "南非",
+        "english": "South Africa",
+        "flag": "🇿🇦",
+        "colorA": "#007749",
+        "colorB": "#ffb81c"
+      },
+      "awayTeam": {
+        "name": "韩国",
+        "english": "Korea Republic",
+        "flag": "🇰🇷",
+        "colorA": "#0047a0",
+        "colorB": "#cd2e3a"
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "南非"
+    },
+    {
+      "id": "537355",
+      "utcDate": "2026-06-25T20:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "E组",
+      "stageOrder": 10,
+      "group": "E",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "厄瓜多尔",
+        "english": "Ecuador",
+        "flag": "🇪🇨",
+        "colorA": "#ffdd00",
+        "colorB": "#0033a0"
+      },
+      "awayTeam": {
+        "name": "德国",
+        "english": "Germany",
+        "flag": "🇩🇪",
+        "colorA": "#111111",
+        "colorB": "#dd0000"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "厄瓜多尔"
+    },
+    {
+      "id": "537356",
+      "utcDate": "2026-06-25T20:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "E组",
+      "stageOrder": 10,
+      "group": "E",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "库拉索",
+        "english": "Curaçao",
+        "flag": "🇨🇼",
+        "colorA": "#002b7f",
+        "colorB": "#f9e300"
+      },
+      "awayTeam": {
+        "name": "科特迪瓦",
+        "english": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "colorA": "#f77f00",
+        "colorB": "#009e60"
+      },
+      "score": {
+        "home": 0,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "科特迪瓦"
+    },
+    {
+      "id": "537361",
+      "utcDate": "2026-06-25T23:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "F组",
+      "stageOrder": 10,
+      "group": "F",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "突尼斯",
+        "english": "Tunisia",
+        "flag": "🇹🇳",
+        "colorA": "#e70013",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "荷兰",
+        "english": "Netherlands",
+        "flag": "🇳🇱",
+        "colorA": "#f36c21",
+        "colorB": "#21468b"
+      },
+      "score": {
+        "home": 1,
+        "away": 3,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "荷兰"
+    },
+    {
+      "id": "537362",
+      "utcDate": "2026-06-25T23:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "F组",
+      "stageOrder": 10,
+      "group": "F",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "日本",
+        "english": "Japan",
+        "flag": "🇯🇵",
+        "colorA": "#bc002d",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "瑞典",
+        "english": "Sweden",
+        "flag": "🇸🇪",
+        "colorA": "#006aa7",
+        "colorB": "#fecc00"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537349",
+      "utcDate": "2026-06-26T02:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "D组",
+      "stageOrder": 10,
+      "group": "D",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "土耳其",
+        "english": "Türkiye",
+        "flag": "🇹🇷",
+        "colorA": "#e30a17",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "美国",
+        "english": "United States",
+        "flag": "🇺🇸",
+        "colorA": "#3c3b6e",
+        "colorB": "#b22234"
+      },
+      "score": {
+        "home": 3,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "土耳其"
+    },
+    {
+      "id": "537350",
+      "utcDate": "2026-06-26T02:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "D组",
+      "stageOrder": 10,
+      "group": "D",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "巴拉圭",
+        "english": "Paraguay",
+        "flag": "🇵🇾",
+        "colorA": "#d52b1e",
+        "colorB": "#0038a8"
+      },
+      "awayTeam": {
+        "name": "澳大利亚",
+        "english": "Australia",
+        "flag": "🇦🇺",
+        "colorA": "#00843d",
+        "colorB": "#ffcd00"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537395",
+      "utcDate": "2026-06-26T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "I组",
+      "stageOrder": 10,
+      "group": "I",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "挪威",
+        "english": "Norway",
+        "flag": "🇳🇴",
+        "colorA": "#ba0c2f",
+        "colorB": "#00205b"
+      },
+      "awayTeam": {
+        "name": "法国",
+        "english": "France",
+        "flag": "🇫🇷",
+        "colorA": "#0055a4",
+        "colorB": "#ef4135"
+      },
+      "score": {
+        "home": 1,
+        "away": 4,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "法国"
+    },
+    {
+      "id": "537396",
+      "utcDate": "2026-06-26T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "I组",
+      "stageOrder": 10,
+      "group": "I",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "塞内加尔",
+        "english": "Senegal",
+        "flag": "🇸🇳",
+        "colorA": "#00853f",
+        "colorB": "#fdef42"
+      },
+      "awayTeam": {
+        "name": "伊拉克",
+        "english": "Iraq",
+        "flag": "🇮🇶",
+        "colorA": "#ce1126",
+        "colorB": "#111111"
+      },
+      "score": {
+        "home": 5,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "塞内加尔"
+    },
+    {
+      "id": "537373",
+      "utcDate": "2026-06-27T00:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "H组",
+      "stageOrder": 10,
+      "group": "H",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "乌拉圭",
+        "english": "Uruguay",
+        "flag": "🇺🇾",
+        "colorA": "#5bc0eb",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "西班牙",
+        "english": "Spain",
+        "flag": "🇪🇸",
+        "colorA": "#aa151b",
+        "colorB": "#f1bf00"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "西班牙"
+    },
+    {
+      "id": "537374",
+      "utcDate": "2026-06-27T00:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "H组",
+      "stageOrder": 10,
+      "group": "H",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "佛得角",
+        "english": "Cabo Verde",
+        "flag": "🇨🇻",
+        "colorA": "#003893",
+        "colorB": "#cf2027"
+      },
+      "awayTeam": {
+        "name": "沙特阿拉伯",
+        "english": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "colorA": "#006c35",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537367",
+      "utcDate": "2026-06-27T03:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "G组",
+      "stageOrder": 10,
+      "group": "G",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "新西兰",
+        "english": "New Zealand",
+        "flag": "🇳🇿",
+        "colorA": "#111111",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "比利时",
+        "english": "Belgium",
+        "flag": "🇧🇪",
+        "colorA": "#111111",
+        "colorB": "#fdda24"
+      },
+      "score": {
+        "home": 1,
+        "away": 5,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "比利时"
+    },
+    {
+      "id": "537368",
+      "utcDate": "2026-06-27T03:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "G组",
+      "stageOrder": 10,
+      "group": "G",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "埃及",
+        "english": "Egypt",
+        "flag": "🇪🇬",
+        "colorA": "#ce1126",
+        "colorB": "#111111"
+      },
+      "awayTeam": {
+        "name": "伊朗",
+        "english": "IR Iran",
+        "flag": "🇮🇷",
+        "colorA": "#239f40",
+        "colorB": "#da0000"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537413",
+      "utcDate": "2026-06-27T21:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "L组",
+      "stageOrder": 10,
+      "group": "L",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "巴拿马",
+        "english": "Panama",
+        "flag": "🇵🇦",
+        "colorA": "#d21034",
+        "colorB": "#005293"
+      },
+      "awayTeam": {
+        "name": "英格兰",
+        "english": "England",
+        "flag": "🏴",
+        "colorA": "#ffffff",
+        "colorB": "#ce1124"
+      },
+      "score": {
+        "home": 0,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "英格兰"
+    },
+    {
+      "id": "537414",
+      "utcDate": "2026-06-27T21:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "L组",
+      "stageOrder": 10,
+      "group": "L",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "克罗地亚",
+        "english": "Croatia",
+        "flag": "🇭🇷",
+        "colorA": "#ff0000",
+        "colorB": "#171796"
+      },
+      "awayTeam": {
+        "name": "加纳",
+        "english": "Ghana",
+        "flag": "🇬🇭",
+        "colorA": "#ce1126",
+        "colorB": "#fcd116"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "克罗地亚"
+    },
+    {
+      "id": "537407",
+      "utcDate": "2026-06-27T23:30:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "K组",
+      "stageOrder": 10,
+      "group": "K",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "哥伦比亚",
+        "english": "Colombia",
+        "flag": "🇨🇴",
+        "colorA": "#fcd116",
+        "colorB": "#003893"
+      },
+      "awayTeam": {
+        "name": "葡萄牙",
+        "english": "Portugal",
+        "flag": "🇵🇹",
+        "colorA": "#046a38",
+        "colorB": "#da291c"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537408",
+      "utcDate": "2026-06-27T23:30:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "K组",
+      "stageOrder": 10,
+      "group": "K",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "刚果（金）",
+        "english": "DR Congo",
+        "flag": "🇨🇩",
+        "colorA": "#007fff",
+        "colorB": "#ce1021"
+      },
+      "awayTeam": {
+        "name": "乌兹别克斯坦",
+        "english": "Uzbekistan",
+        "flag": "🇺🇿",
+        "colorA": "#1eb53a",
+        "colorB": "#0099b5"
+      },
+      "score": {
+        "home": 3,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "刚果（金）"
+    },
+    {
+      "id": "537401",
+      "utcDate": "2026-06-28T02:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "J组",
+      "stageOrder": 10,
+      "group": "J",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "约旦",
+        "english": "Jordan",
+        "flag": "🇯🇴",
+        "colorA": "#007a3d",
+        "colorB": "#ce1126"
+      },
+      "awayTeam": {
+        "name": "阿根廷",
+        "english": "Argentina",
+        "flag": "🇦🇷",
+        "colorA": "#74acdf",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 1,
+        "away": 3,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "阿根廷"
+    },
+    {
+      "id": "537402",
+      "utcDate": "2026-06-28T02:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "GROUP",
+      "stageLabel": "J组",
+      "stageOrder": 10,
+      "group": "J",
+      "matchday": 3,
+      "homeTeam": {
+        "name": "阿尔及利亚",
+        "english": "Algeria",
+        "flag": "🇩🇿",
+        "colorA": "#006633",
+        "colorB": "#d21034"
+      },
+      "awayTeam": {
+        "name": "奥地利",
+        "english": "Austria",
+        "flag": "🇦🇹",
+        "colorA": "#ed2939",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 3,
+        "away": 3,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537417",
+      "utcDate": "2026-06-28T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "南非",
+        "english": "South Africa",
+        "flag": "🇿🇦",
+        "colorA": "#007749",
+        "colorB": "#ffb81c"
+      },
+      "awayTeam": {
+        "name": "加拿大",
+        "english": "Canada",
+        "flag": "🇨🇦",
+        "colorA": "#d80621",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "加拿大"
+    },
+    {
+      "id": "537423",
+      "utcDate": "2026-06-29T17:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "巴西",
+        "english": "Brazil",
+        "flag": "🇧🇷",
+        "colorA": "#ffdf00",
+        "colorB": "#009c3b"
+      },
+      "awayTeam": {
+        "name": "日本",
+        "english": "Japan",
+        "flag": "🇯🇵",
+        "colorA": "#bc002d",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "巴西"
+    },
+    {
+      "id": "537415",
+      "utcDate": "2026-06-29T20:30:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "德国",
+        "english": "Germany",
+        "flag": "🇩🇪",
+        "colorA": "#111111",
+        "colorB": "#dd0000"
+      },
+      "awayTeam": {
+        "name": "巴拉圭",
+        "english": "Paraguay",
+        "flag": "🇵🇾",
+        "colorA": "#d52b1e",
+        "colorB": "#0038a8"
+      },
+      "score": {
+        "home": 4,
+        "away": 5,
+        "penaltiesHome": 3,
+        "penaltiesAway": 4
+      },
+      "winner": "巴拉圭"
+    },
+    {
+      "id": "537418",
+      "utcDate": "2026-06-30T01:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "荷兰",
+        "english": "Netherlands",
+        "flag": "🇳🇱",
+        "colorA": "#f36c21",
+        "colorB": "#21468b"
+      },
+      "awayTeam": {
+        "name": "摩洛哥",
+        "english": "Morocco",
+        "flag": "🇲🇦",
+        "colorA": "#c1272d",
+        "colorB": "#006233"
+      },
+      "score": {
+        "home": 3,
+        "away": 4,
+        "penaltiesHome": 2,
+        "penaltiesAway": 3
+      },
+      "winner": "摩洛哥"
+    },
+    {
+      "id": "537424",
+      "utcDate": "2026-06-30T17:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "科特迪瓦",
+        "english": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "colorA": "#f77f00",
+        "colorB": "#009e60"
+      },
+      "awayTeam": {
+        "name": "挪威",
+        "english": "Norway",
+        "flag": "🇳🇴",
+        "colorA": "#ba0c2f",
+        "colorB": "#00205b"
+      },
+      "score": {
+        "home": 1,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "挪威"
+    },
+    {
+      "id": "537416",
+      "utcDate": "2026-06-30T21:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "法国",
+        "english": "France",
+        "flag": "🇫🇷",
+        "colorA": "#0055a4",
+        "colorB": "#ef4135"
+      },
+      "awayTeam": {
+        "name": "瑞典",
+        "english": "Sweden",
+        "flag": "🇸🇪",
+        "colorA": "#006aa7",
+        "colorB": "#fecc00"
+      },
+      "score": {
+        "home": 3,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "法国"
+    },
+    {
+      "id": "537425",
+      "utcDate": "2026-07-01T02:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "墨西哥",
+        "english": "Mexico",
+        "flag": "🇲🇽",
+        "colorA": "#006847",
+        "colorB": "#ce1126"
+      },
+      "awayTeam": {
+        "name": "厄瓜多尔",
+        "english": "Ecuador",
+        "flag": "🇪🇨",
+        "colorA": "#ffdd00",
+        "colorB": "#0033a0"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "墨西哥"
+    },
+    {
+      "id": "537426",
+      "utcDate": "2026-07-01T16:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "英格兰",
+        "english": "England",
+        "flag": "🏴",
+        "colorA": "#ffffff",
+        "colorB": "#ce1124"
+      },
+      "awayTeam": {
+        "name": "刚果（金）",
+        "english": "DR Congo",
+        "flag": "🇨🇩",
+        "colorA": "#007fff",
+        "colorB": "#ce1021"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "英格兰"
+    },
+    {
+      "id": "537422",
+      "utcDate": "2026-07-01T20:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "比利时",
+        "english": "Belgium",
+        "flag": "🇧🇪",
+        "colorA": "#111111",
+        "colorB": "#fdda24"
+      },
+      "awayTeam": {
+        "name": "塞内加尔",
+        "english": "Senegal",
+        "flag": "🇸🇳",
+        "colorA": "#00853f",
+        "colorB": "#fdef42"
+      },
+      "score": {
+        "home": 3,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "比利时"
+    },
+    {
+      "id": "537421",
+      "utcDate": "2026-07-02T00:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "美国",
+        "english": "United States",
+        "flag": "🇺🇸",
+        "colorA": "#3c3b6e",
+        "colorB": "#b22234"
+      },
+      "awayTeam": {
+        "name": "波黑",
+        "english": "Bosnia & Herzegovina",
+        "flag": "🇧🇦",
+        "colorA": "#002395",
+        "colorB": "#fecb00"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "美国"
+    },
+    {
+      "id": "537420",
+      "utcDate": "2026-07-02T19:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "西班牙",
+        "english": "Spain",
+        "flag": "🇪🇸",
+        "colorA": "#aa151b",
+        "colorB": "#f1bf00"
+      },
+      "awayTeam": {
+        "name": "奥地利",
+        "english": "Austria",
+        "flag": "🇦🇹",
+        "colorA": "#ed2939",
+        "colorB": "#ffffff"
+      },
+      "score": {
+        "home": 3,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "西班牙"
+    },
+    {
+      "id": "537419",
+      "utcDate": "2026-07-02T23:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "葡萄牙",
+        "english": "Portugal",
+        "flag": "🇵🇹",
+        "colorA": "#046a38",
+        "colorB": "#da291c"
+      },
+      "awayTeam": {
+        "name": "克罗地亚",
+        "english": "Croatia",
+        "flag": "🇭🇷",
+        "colorA": "#ff0000",
+        "colorB": "#171796"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "葡萄牙"
+    },
+    {
+      "id": "537429",
+      "utcDate": "2026-07-03T03:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "瑞士",
+        "english": "Switzerland",
+        "flag": "🇨🇭",
+        "colorA": "#d52b1e",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "阿尔及利亚",
+        "english": "Algeria",
+        "flag": "🇩🇿",
+        "colorA": "#006633",
+        "colorB": "#d21034"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "瑞士"
+    },
+    {
+      "id": "537428",
+      "utcDate": "2026-07-03T18:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "澳大利亚",
+        "english": "Australia",
+        "flag": "🇦🇺",
+        "colorA": "#00843d",
+        "colorB": "#ffcd00"
+      },
+      "awayTeam": {
+        "name": "埃及",
+        "english": "Egypt",
+        "flag": "🇪🇬",
+        "colorA": "#ce1126",
+        "colorB": "#111111"
+      },
+      "score": {
+        "home": 3,
+        "away": 5,
+        "penaltiesHome": 4,
+        "penaltiesAway": 4
+      },
+      "winner": null
+    },
+    {
+      "id": "537427",
+      "utcDate": "2026-07-03T22:00:00Z",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "阿根廷",
+        "english": "Argentina",
+        "flag": "🇦🇷",
+        "colorA": "#74acdf",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "佛得角",
+        "english": "Cabo Verde",
+        "flag": "🇨🇻",
+        "colorA": "#003893",
+        "colorB": "#cf2027"
+      },
+      "score": {
+        "home": 3,
+        "away": 2,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "阿根廷"
+    },
+    {
+      "id": "537430",
+      "utcDate": "2026-07-04T01:30:00Z",
+      "status": "IN_PLAY",
+      "statusLabel": "进行中",
+      "stage": "LAST_32",
+      "stageLabel": "32强淘汰赛",
+      "stageOrder": 20,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "哥伦比亚",
+        "english": "Colombia",
+        "flag": "🇨🇴",
+        "colorA": "#fcd116",
+        "colorB": "#003893"
+      },
+      "awayTeam": {
+        "name": "加纳",
+        "english": "Ghana",
+        "flag": "🇬🇭",
+        "colorA": "#ce1126",
+        "colorB": "#fcd116"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": "哥伦比亚"
+    },
+    {
+      "id": "537376",
+      "utcDate": "2026-07-04T17:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "LAST_16",
+      "stageLabel": "16强",
+      "stageOrder": 30,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "加拿大",
+        "english": "Canada",
+        "flag": "🇨🇦",
+        "colorA": "#d80621",
+        "colorB": "#ffffff"
+      },
+      "awayTeam": {
+        "name": "摩洛哥",
+        "english": "Morocco",
+        "flag": "🇲🇦",
+        "colorA": "#c1272d",
+        "colorB": "#006233"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537375",
+      "utcDate": "2026-07-04T21:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "LAST_16",
+      "stageLabel": "16强",
+      "stageOrder": 30,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "巴拉圭",
+        "english": "Paraguay",
+        "flag": "🇵🇾",
+        "colorA": "#d52b1e",
+        "colorB": "#0038a8"
+      },
+      "awayTeam": {
+        "name": "法国",
+        "english": "France",
+        "flag": "🇫🇷",
+        "colorA": "#0055a4",
+        "colorB": "#ef4135"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537377",
+      "utcDate": "2026-07-05T20:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "LAST_16",
+      "stageLabel": "16强",
+      "stageOrder": 30,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "巴西",
+        "english": "Brazil",
+        "flag": "🇧🇷",
+        "colorA": "#ffdf00",
+        "colorB": "#009c3b"
+      },
+      "awayTeam": {
+        "name": "挪威",
+        "english": "Norway",
+        "flag": "🇳🇴",
+        "colorA": "#ba0c2f",
+        "colorB": "#00205b"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537378",
+      "utcDate": "2026-07-06T00:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "LAST_16",
+      "stageLabel": "16强",
+      "stageOrder": 30,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "墨西哥",
+        "english": "Mexico",
+        "flag": "🇲🇽",
+        "colorA": "#006847",
+        "colorB": "#ce1126"
+      },
+      "awayTeam": {
+        "name": "英格兰",
+        "english": "England",
+        "flag": "🏴",
+        "colorA": "#ffffff",
+        "colorB": "#ce1124"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537379",
+      "utcDate": "2026-07-06T19:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "LAST_16",
+      "stageLabel": "16强",
+      "stageOrder": 30,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537380",
+      "utcDate": "2026-07-07T00:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "LAST_16",
+      "stageLabel": "16强",
+      "stageOrder": 30,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "美国",
+        "english": "United States",
+        "flag": "🇺🇸",
+        "colorA": "#3c3b6e",
+        "colorB": "#b22234"
+      },
+      "awayTeam": {
+        "name": "比利时",
+        "english": "Belgium",
+        "flag": "🇧🇪",
+        "colorA": "#111111",
+        "colorB": "#fdda24"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537381",
+      "utcDate": "2026-07-07T16:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "LAST_16",
+      "stageLabel": "16强",
+      "stageOrder": 30,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537382",
+      "utcDate": "2026-07-07T20:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "LAST_16",
+      "stageLabel": "16强",
+      "stageOrder": 30,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537383",
+      "utcDate": "2026-07-09T20:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "QUARTER_FINALS",
+      "stageLabel": "1/4决赛",
+      "stageOrder": 40,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537384",
+      "utcDate": "2026-07-10T19:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "QUARTER_FINALS",
+      "stageLabel": "1/4决赛",
+      "stageOrder": 40,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537385",
+      "utcDate": "2026-07-11T21:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "QUARTER_FINALS",
+      "stageLabel": "1/4决赛",
+      "stageOrder": 40,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537386",
+      "utcDate": "2026-07-12T01:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "QUARTER_FINALS",
+      "stageLabel": "1/4决赛",
+      "stageOrder": 40,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537387",
+      "utcDate": "2026-07-14T19:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "SEMI_FINALS",
+      "stageLabel": "半决赛",
+      "stageOrder": 50,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537388",
+      "utcDate": "2026-07-15T19:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "SEMI_FINALS",
+      "stageLabel": "半决赛",
+      "stageOrder": 50,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537389",
+      "utcDate": "2026-07-18T21:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "THIRD_PLACE",
+      "stageLabel": "季军赛",
+      "stageOrder": 60,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    },
+    {
+      "id": "537390",
+      "utcDate": "2026-07-19T19:00:00Z",
+      "status": "TIMED",
+      "statusLabel": "未开始",
+      "stage": "FINAL",
+      "stageLabel": "决赛",
+      "stageOrder": 70,
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "awayTeam": {
+        "name": "待定",
+        "english": "待定",
+        "flag": "🏳️",
+        "colorA": "#61727a",
+        "colorB": "#24323c"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "penaltiesHome": null,
+        "penaltiesAway": null
+      },
+      "winner": null
+    }
+  ],
+  "nextMatch": {
+    "id": "537430",
+    "utcDate": "2026-07-04T01:30:00Z",
+    "status": "IN_PLAY",
+    "statusLabel": "进行中",
+    "stage": "LAST_32",
+    "stageLabel": "32强淘汰赛",
+    "stageOrder": 20,
+    "group": null,
+    "matchday": null,
+    "homeTeam": {
+      "name": "哥伦比亚",
+      "english": "Colombia",
+      "flag": "🇨🇴",
+      "colorA": "#fcd116",
+      "colorB": "#003893"
+    },
+    "awayTeam": {
+      "name": "加纳",
+      "english": "Ghana",
+      "flag": "🇬🇭",
+      "colorA": "#ce1126",
+      "colorB": "#fcd116"
+    },
+    "score": {
+      "home": 2,
+      "away": 0,
+      "penaltiesHome": null,
+      "penaltiesAway": null
+    },
+    "winner": "哥伦比亚"
+  },
+  "knockout": {
+    "rounds": [
+      {
+        "id": "LAST_32",
+        "label": "32强淘汰赛",
+        "matches": [
+          {
+            "id": "537417",
+            "utcDate": "2026-06-28T19:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "南非",
+              "english": "South Africa",
+              "flag": "🇿🇦",
+              "colorA": "#007749",
+              "colorB": "#ffb81c"
+            },
+            "awayTeam": {
+              "name": "加拿大",
+              "english": "Canada",
+              "flag": "🇨🇦",
+              "colorA": "#d80621",
+              "colorB": "#ffffff"
+            },
+            "score": {
+              "home": 0,
+              "away": 1,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "加拿大"
+          },
+          {
+            "id": "537423",
+            "utcDate": "2026-06-29T17:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "巴西",
+              "english": "Brazil",
+              "flag": "🇧🇷",
+              "colorA": "#ffdf00",
+              "colorB": "#009c3b"
+            },
+            "awayTeam": {
+              "name": "日本",
+              "english": "Japan",
+              "flag": "🇯🇵",
+              "colorA": "#bc002d",
+              "colorB": "#ffffff"
+            },
+            "score": {
+              "home": 2,
+              "away": 1,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "巴西"
+          },
+          {
+            "id": "537415",
+            "utcDate": "2026-06-29T20:30:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "德国",
+              "english": "Germany",
+              "flag": "🇩🇪",
+              "colorA": "#111111",
+              "colorB": "#dd0000"
+            },
+            "awayTeam": {
+              "name": "巴拉圭",
+              "english": "Paraguay",
+              "flag": "🇵🇾",
+              "colorA": "#d52b1e",
+              "colorB": "#0038a8"
+            },
+            "score": {
+              "home": 4,
+              "away": 5,
+              "penaltiesHome": 3,
+              "penaltiesAway": 4
+            },
+            "winner": "巴拉圭"
+          },
+          {
+            "id": "537418",
+            "utcDate": "2026-06-30T01:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "荷兰",
+              "english": "Netherlands",
+              "flag": "🇳🇱",
+              "colorA": "#f36c21",
+              "colorB": "#21468b"
+            },
+            "awayTeam": {
+              "name": "摩洛哥",
+              "english": "Morocco",
+              "flag": "🇲🇦",
+              "colorA": "#c1272d",
+              "colorB": "#006233"
+            },
+            "score": {
+              "home": 3,
+              "away": 4,
+              "penaltiesHome": 2,
+              "penaltiesAway": 3
+            },
+            "winner": "摩洛哥"
+          },
+          {
+            "id": "537424",
+            "utcDate": "2026-06-30T17:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "科特迪瓦",
+              "english": "Côte d'Ivoire",
+              "flag": "🇨🇮",
+              "colorA": "#f77f00",
+              "colorB": "#009e60"
+            },
+            "awayTeam": {
+              "name": "挪威",
+              "english": "Norway",
+              "flag": "🇳🇴",
+              "colorA": "#ba0c2f",
+              "colorB": "#00205b"
+            },
+            "score": {
+              "home": 1,
+              "away": 2,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "挪威"
+          },
+          {
+            "id": "537416",
+            "utcDate": "2026-06-30T21:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "法国",
+              "english": "France",
+              "flag": "🇫🇷",
+              "colorA": "#0055a4",
+              "colorB": "#ef4135"
+            },
+            "awayTeam": {
+              "name": "瑞典",
+              "english": "Sweden",
+              "flag": "🇸🇪",
+              "colorA": "#006aa7",
+              "colorB": "#fecc00"
+            },
+            "score": {
+              "home": 3,
+              "away": 0,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "法国"
+          },
+          {
+            "id": "537425",
+            "utcDate": "2026-07-01T02:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "墨西哥",
+              "english": "Mexico",
+              "flag": "🇲🇽",
+              "colorA": "#006847",
+              "colorB": "#ce1126"
+            },
+            "awayTeam": {
+              "name": "厄瓜多尔",
+              "english": "Ecuador",
+              "flag": "🇪🇨",
+              "colorA": "#ffdd00",
+              "colorB": "#0033a0"
+            },
+            "score": {
+              "home": 2,
+              "away": 0,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "墨西哥"
+          },
+          {
+            "id": "537426",
+            "utcDate": "2026-07-01T16:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "英格兰",
+              "english": "England",
+              "flag": "🏴",
+              "colorA": "#ffffff",
+              "colorB": "#ce1124"
+            },
+            "awayTeam": {
+              "name": "刚果（金）",
+              "english": "DR Congo",
+              "flag": "🇨🇩",
+              "colorA": "#007fff",
+              "colorB": "#ce1021"
+            },
+            "score": {
+              "home": 2,
+              "away": 1,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "英格兰"
+          },
+          {
+            "id": "537422",
+            "utcDate": "2026-07-01T20:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "比利时",
+              "english": "Belgium",
+              "flag": "🇧🇪",
+              "colorA": "#111111",
+              "colorB": "#fdda24"
+            },
+            "awayTeam": {
+              "name": "塞内加尔",
+              "english": "Senegal",
+              "flag": "🇸🇳",
+              "colorA": "#00853f",
+              "colorB": "#fdef42"
+            },
+            "score": {
+              "home": 3,
+              "away": 2,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "比利时"
+          },
+          {
+            "id": "537421",
+            "utcDate": "2026-07-02T00:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "美国",
+              "english": "United States",
+              "flag": "🇺🇸",
+              "colorA": "#3c3b6e",
+              "colorB": "#b22234"
+            },
+            "awayTeam": {
+              "name": "波黑",
+              "english": "Bosnia & Herzegovina",
+              "flag": "🇧🇦",
+              "colorA": "#002395",
+              "colorB": "#fecb00"
+            },
+            "score": {
+              "home": 2,
+              "away": 0,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "美国"
+          },
+          {
+            "id": "537420",
+            "utcDate": "2026-07-02T19:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "西班牙",
+              "english": "Spain",
+              "flag": "🇪🇸",
+              "colorA": "#aa151b",
+              "colorB": "#f1bf00"
+            },
+            "awayTeam": {
+              "name": "奥地利",
+              "english": "Austria",
+              "flag": "🇦🇹",
+              "colorA": "#ed2939",
+              "colorB": "#ffffff"
+            },
+            "score": {
+              "home": 3,
+              "away": 0,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "西班牙"
+          },
+          {
+            "id": "537419",
+            "utcDate": "2026-07-02T23:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "葡萄牙",
+              "english": "Portugal",
+              "flag": "🇵🇹",
+              "colorA": "#046a38",
+              "colorB": "#da291c"
+            },
+            "awayTeam": {
+              "name": "克罗地亚",
+              "english": "Croatia",
+              "flag": "🇭🇷",
+              "colorA": "#ff0000",
+              "colorB": "#171796"
+            },
+            "score": {
+              "home": 2,
+              "away": 1,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "葡萄牙"
+          },
+          {
+            "id": "537429",
+            "utcDate": "2026-07-03T03:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "瑞士",
+              "english": "Switzerland",
+              "flag": "🇨🇭",
+              "colorA": "#d52b1e",
+              "colorB": "#ffffff"
+            },
+            "awayTeam": {
+              "name": "阿尔及利亚",
+              "english": "Algeria",
+              "flag": "🇩🇿",
+              "colorA": "#006633",
+              "colorB": "#d21034"
+            },
+            "score": {
+              "home": 2,
+              "away": 0,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "瑞士"
+          },
+          {
+            "id": "537428",
+            "utcDate": "2026-07-03T18:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "澳大利亚",
+              "english": "Australia",
+              "flag": "🇦🇺",
+              "colorA": "#00843d",
+              "colorB": "#ffcd00"
+            },
+            "awayTeam": {
+              "name": "埃及",
+              "english": "Egypt",
+              "flag": "🇪🇬",
+              "colorA": "#ce1126",
+              "colorB": "#111111"
+            },
+            "score": {
+              "home": 3,
+              "away": 5,
+              "penaltiesHome": 4,
+              "penaltiesAway": 4
+            },
+            "winner": null
+          },
+          {
+            "id": "537427",
+            "utcDate": "2026-07-03T22:00:00Z",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "阿根廷",
+              "english": "Argentina",
+              "flag": "🇦🇷",
+              "colorA": "#74acdf",
+              "colorB": "#ffffff"
+            },
+            "awayTeam": {
+              "name": "佛得角",
+              "english": "Cabo Verde",
+              "flag": "🇨🇻",
+              "colorA": "#003893",
+              "colorB": "#cf2027"
+            },
+            "score": {
+              "home": 3,
+              "away": 2,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "阿根廷"
+          },
+          {
+            "id": "537430",
+            "utcDate": "2026-07-04T01:30:00Z",
+            "status": "IN_PLAY",
+            "statusLabel": "进行中",
+            "stage": "LAST_32",
+            "stageLabel": "32强淘汰赛",
+            "stageOrder": 20,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "哥伦比亚",
+              "english": "Colombia",
+              "flag": "🇨🇴",
+              "colorA": "#fcd116",
+              "colorB": "#003893"
+            },
+            "awayTeam": {
+              "name": "加纳",
+              "english": "Ghana",
+              "flag": "🇬🇭",
+              "colorA": "#ce1126",
+              "colorB": "#fcd116"
+            },
+            "score": {
+              "home": 2,
+              "away": 0,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": "哥伦比亚"
+          }
+        ]
+      },
+      {
+        "id": "LAST_16",
+        "label": "16强",
+        "matches": [
+          {
+            "id": "537376",
+            "utcDate": "2026-07-04T17:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "LAST_16",
+            "stageLabel": "16强",
+            "stageOrder": 30,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "加拿大",
+              "english": "Canada",
+              "flag": "🇨🇦",
+              "colorA": "#d80621",
+              "colorB": "#ffffff"
+            },
+            "awayTeam": {
+              "name": "摩洛哥",
+              "english": "Morocco",
+              "flag": "🇲🇦",
+              "colorA": "#c1272d",
+              "colorB": "#006233"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537375",
+            "utcDate": "2026-07-04T21:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "LAST_16",
+            "stageLabel": "16强",
+            "stageOrder": 30,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "巴拉圭",
+              "english": "Paraguay",
+              "flag": "🇵🇾",
+              "colorA": "#d52b1e",
+              "colorB": "#0038a8"
+            },
+            "awayTeam": {
+              "name": "法国",
+              "english": "France",
+              "flag": "🇫🇷",
+              "colorA": "#0055a4",
+              "colorB": "#ef4135"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537377",
+            "utcDate": "2026-07-05T20:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "LAST_16",
+            "stageLabel": "16强",
+            "stageOrder": 30,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "巴西",
+              "english": "Brazil",
+              "flag": "🇧🇷",
+              "colorA": "#ffdf00",
+              "colorB": "#009c3b"
+            },
+            "awayTeam": {
+              "name": "挪威",
+              "english": "Norway",
+              "flag": "🇳🇴",
+              "colorA": "#ba0c2f",
+              "colorB": "#00205b"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537378",
+            "utcDate": "2026-07-06T00:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "LAST_16",
+            "stageLabel": "16强",
+            "stageOrder": 30,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "墨西哥",
+              "english": "Mexico",
+              "flag": "🇲🇽",
+              "colorA": "#006847",
+              "colorB": "#ce1126"
+            },
+            "awayTeam": {
+              "name": "英格兰",
+              "english": "England",
+              "flag": "🏴",
+              "colorA": "#ffffff",
+              "colorB": "#ce1124"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537379",
+            "utcDate": "2026-07-06T19:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "LAST_16",
+            "stageLabel": "16强",
+            "stageOrder": 30,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537380",
+            "utcDate": "2026-07-07T00:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "LAST_16",
+            "stageLabel": "16强",
+            "stageOrder": 30,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "美国",
+              "english": "United States",
+              "flag": "🇺🇸",
+              "colorA": "#3c3b6e",
+              "colorB": "#b22234"
+            },
+            "awayTeam": {
+              "name": "比利时",
+              "english": "Belgium",
+              "flag": "🇧🇪",
+              "colorA": "#111111",
+              "colorB": "#fdda24"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537381",
+            "utcDate": "2026-07-07T16:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "LAST_16",
+            "stageLabel": "16强",
+            "stageOrder": 30,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537382",
+            "utcDate": "2026-07-07T20:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "LAST_16",
+            "stageLabel": "16强",
+            "stageOrder": 30,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          }
+        ]
+      },
+      {
+        "id": "QUARTER_FINALS",
+        "label": "1/4决赛",
+        "matches": [
+          {
+            "id": "537383",
+            "utcDate": "2026-07-09T20:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "QUARTER_FINALS",
+            "stageLabel": "1/4决赛",
+            "stageOrder": 40,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537384",
+            "utcDate": "2026-07-10T19:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "QUARTER_FINALS",
+            "stageLabel": "1/4决赛",
+            "stageOrder": 40,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537385",
+            "utcDate": "2026-07-11T21:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "QUARTER_FINALS",
+            "stageLabel": "1/4决赛",
+            "stageOrder": 40,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537386",
+            "utcDate": "2026-07-12T01:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "QUARTER_FINALS",
+            "stageLabel": "1/4决赛",
+            "stageOrder": 40,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          }
+        ]
+      },
+      {
+        "id": "SEMI_FINALS",
+        "label": "半决赛",
+        "matches": [
+          {
+            "id": "537387",
+            "utcDate": "2026-07-14T19:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "SEMI_FINALS",
+            "stageLabel": "半决赛",
+            "stageOrder": 50,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          },
+          {
+            "id": "537388",
+            "utcDate": "2026-07-15T19:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "SEMI_FINALS",
+            "stageLabel": "半决赛",
+            "stageOrder": 50,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          }
+        ]
+      },
+      {
+        "id": "THIRD_PLACE",
+        "label": "季军赛",
+        "matches": [
+          {
+            "id": "537389",
+            "utcDate": "2026-07-18T21:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "THIRD_PLACE",
+            "stageLabel": "季军赛",
+            "stageOrder": 60,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          }
+        ]
+      },
+      {
+        "id": "FINAL",
+        "label": "决赛",
+        "matches": [
+          {
+            "id": "537390",
+            "utcDate": "2026-07-19T19:00:00Z",
+            "status": "TIMED",
+            "statusLabel": "未开始",
+            "stage": "FINAL",
+            "stageLabel": "决赛",
+            "stageOrder": 70,
+            "group": null,
+            "matchday": null,
+            "homeTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "awayTeam": {
+              "name": "待定",
+              "english": "待定",
+              "flag": "🏳️",
+              "colorA": "#61727a",
+              "colorB": "#24323c"
+            },
+            "score": {
+              "home": null,
+              "away": null,
+              "penaltiesHome": null,
+              "penaltiesAway": null
+            },
+            "winner": null
+          }
+        ]
+      }
+    ]
+  }
 }
