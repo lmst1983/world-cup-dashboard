@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-04T03:46:55Z",
+  "updatedAt": "2026-07-04T08:03:45Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -3596,10 +3596,10 @@
       "score": {
         "home": 3,
         "away": 5,
-        "penaltiesHome": 4,
+        "penaltiesHome": 2,
         "penaltiesAway": 4
       },
-      "winner": null
+      "winner": "埃及"
     },
     {
       "id": "537427",
@@ -3804,18 +3804,18 @@
       "group": null,
       "matchday": null,
       "homeTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "葡萄牙",
+        "english": "Portugal",
+        "flag": "🇵🇹",
+        "colorA": "#046a38",
+        "colorB": "#da291c"
       },
       "awayTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "西班牙",
+        "english": "Spain",
+        "flag": "🇪🇸",
+        "colorA": "#aa151b",
+        "colorB": "#f1bf00"
       },
       "score": {
         "home": null,
@@ -3868,18 +3868,18 @@
       "group": null,
       "matchday": null,
       "homeTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "阿根廷",
+        "english": "Argentina",
+        "flag": "🇦🇷",
+        "colorA": "#74acdf",
+        "colorB": "#ffffff"
       },
       "awayTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "埃及",
+        "english": "Egypt",
+        "flag": "🇪🇬",
+        "colorA": "#ce1126",
+        "colorB": "#111111"
       },
       "score": {
         "home": null,
@@ -3900,18 +3900,18 @@
       "group": null,
       "matchday": null,
       "homeTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "瑞士",
+        "english": "Switzerland",
+        "flag": "🇨🇭",
+        "colorA": "#d52b1e",
+        "colorB": "#ffffff"
       },
       "awayTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "哥伦比亚",
+        "english": "Colombia",
+        "flag": "🇨🇴",
+        "colorA": "#fcd116",
+        "colorB": "#003893"
       },
       "score": {
         "home": null,
@@ -4659,10 +4659,10 @@
             "score": {
               "home": 3,
               "away": 5,
-              "penaltiesHome": 4,
+              "penaltiesHome": 2,
               "penaltiesAway": 4
             },
-            "winner": null
+            "winner": "埃及"
           },
           {
             "id": "537427",
@@ -4873,18 +4873,18 @@
             "group": null,
             "matchday": null,
             "homeTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "葡萄牙",
+              "english": "Portugal",
+              "flag": "🇵🇹",
+              "colorA": "#046a38",
+              "colorB": "#da291c"
             },
             "awayTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "西班牙",
+              "english": "Spain",
+              "flag": "🇪🇸",
+              "colorA": "#aa151b",
+              "colorB": "#f1bf00"
             },
             "score": {
               "home": null,
@@ -4937,18 +4937,18 @@
             "group": null,
             "matchday": null,
             "homeTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "阿根廷",
+              "english": "Argentina",
+              "flag": "🇦🇷",
+              "colorA": "#74acdf",
+              "colorB": "#ffffff"
             },
             "awayTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "埃及",
+              "english": "Egypt",
+              "flag": "🇪🇬",
+              "colorA": "#ce1126",
+              "colorB": "#111111"
             },
             "score": {
               "home": null,
@@ -4969,18 +4969,18 @@
             "group": null,
             "matchday": null,
             "homeTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "瑞士",
+              "english": "Switzerland",
+              "flag": "🇨🇭",
+              "colorA": "#d52b1e",
+              "colorB": "#ffffff"
             },
             "awayTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "哥伦比亚",
+              "english": "Colombia",
+              "flag": "🇨🇴",
+              "colorA": "#fcd116",
+              "colorB": "#003893"
             },
             "score": {
               "home": null,
