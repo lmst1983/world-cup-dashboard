@@ -20,6 +20,7 @@ class UpdateStandingsTest(unittest.TestCase):
 
     def test_rebuilds_group_from_finished_matches(self):
         payload = {
+            "resultSet": {"count": 2},
             "matches": [
                 {
                     "id": 1,
@@ -55,11 +56,15 @@ class UpdateStandingsTest(unittest.TestCase):
             "New Zealand",
         ])
         self.assertEqual(result["summary"]["playedMatches"], 2)
+        self.assertEqual(result["summary"]["groupPlayedMatches"], 2)
+        self.assertEqual(result["summary"]["totalMatches"], 2)
         self.assertEqual(result["summary"]["goals"], 3)
         self.assertEqual(result["summary"]["averageGoals"], 1.5)
+        self.assertEqual(len(result["matches"]), 2)
 
-    def test_ignores_unfinished_and_knockout_matches(self):
+    def test_standings_ignore_unfinished_and_knockout_but_schedule_keeps_them(self):
         payload = {
+            "resultSet": {"count": 2},
             "matches": [
                 {
                     "id": 10,
@@ -81,8 +86,60 @@ class UpdateStandingsTest(unittest.TestCase):
         }
 
         result = UPDATE.build_dashboard(self.seed, payload, enforce_progress=False)
-        self.assertEqual(result["summary"]["playedMatches"], 0)
-        self.assertEqual(result["summary"]["goals"], 0)
+        self.assertEqual(result["summary"]["playedMatches"], 1)
+        self.assertEqual(result["summary"]["groupPlayedMatches"], 0)
+        self.assertEqual(result["summary"]["knockoutPlayedMatches"], 1)
+        self.assertEqual(result["summary"]["goals"], 1)
+        self.assertEqual(len(result["matches"]), 2)
+        self.assertEqual(result["matches"][1]["stageLabel"], "32强淘汰赛")
+        self.assertEqual(result["knockout"]["rounds"][0]["id"], "LAST_32")
+
+    def test_picks_next_match_from_schedule(self):
+        payload = {
+            "matches": [
+                {
+                    "id": 30,
+                    "status": "TIMED",
+                    "stage": "LAST_16",
+                    "utcDate": "2026-07-01T19:00:00Z",
+                    "homeTeam": {"name": "Brazil"},
+                    "awayTeam": {"name": "Morocco"},
+                    "score": {"fullTime": {"home": None, "away": None}},
+                },
+                {
+                    "id": 31,
+                    "status": "TIMED",
+                    "stage": "LAST_16",
+                    "utcDate": "2026-06-30T19:00:00Z",
+                    "homeTeam": {"name": "France"},
+                    "awayTeam": {"name": "Norway"},
+                    "score": {"fullTime": {"home": None, "away": None}},
+                },
+            ]
+        }
+
+        result = UPDATE.build_dashboard(self.seed, payload, enforce_progress=False)
+        self.assertEqual(result["nextMatch"]["id"], "31")
+        self.assertEqual(result["nextMatch"]["homeTeam"]["name"], "法国")
+
+    def test_unknown_future_knockout_team_becomes_placeholder(self):
+        payload = {
+            "matches": [
+                {
+                    "id": 40,
+                    "status": "TIMED",
+                    "stage": "QUARTER_FINALS",
+                    "utcDate": "2026-07-05T19:00:00Z",
+                    "homeTeam": {"name": "Winner Match 73"},
+                    "awayTeam": {"name": "Winner Match 74"},
+                    "score": {"fullTime": {"home": None, "away": None}},
+                },
+            ]
+        }
+
+        result = UPDATE.build_dashboard(self.seed, payload, enforce_progress=False)
+        self.assertEqual(result["matches"][0]["homeTeam"]["flag"], "🏳️")
+        self.assertEqual(result["knockout"]["rounds"][0]["label"], "1/4决赛")
 
     def test_rejects_unknown_team(self):
         payload = {
@@ -105,6 +162,11 @@ class UpdateStandingsTest(unittest.TestCase):
         newer = json.loads(json.dumps(self.seed))
         newer["updatedAt"] = "2026-06-21T12:00:00Z"
         self.assertFalse(UPDATE.has_meaningful_change(self.seed, newer))
+
+    def test_schedule_change_is_meaningful(self):
+        newer = json.loads(json.dumps(self.seed))
+        newer["matches"] = [{"id": "new"}]
+        self.assertTrue(UPDATE.has_meaningful_change(self.seed, newer))
 
 
 if __name__ == "__main__":

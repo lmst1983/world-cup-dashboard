@@ -1,6 +1,16 @@
-name: Update World Cup standings
+name: Update World Cup dashboard data
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-standings.yml"
+      - "scripts/update_standings.py"
+      - "tests/test_update_standings.py"
+      - "app.js"
+      - "index.html"
+      - "styles.css"
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
@@ -9,7 +19,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-world-cup-standings
+  group: update-world-cup-dashboard-data
   cancel-in-progress: true
 
 jobs:
@@ -29,7 +39,7 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
 
-      - name: Fetch matches and rebuild standings
+      - name: Fetch matches and rebuild dashboard data
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
           FOOTBALL_DATA_COMPETITION: WC
@@ -39,11 +49,11 @@ jobs:
       - name: Commit updated data
         run: |
           if git diff --quiet -- data/standings.json; then
-            echo "No standings change"
+            echo "No dashboard data change"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/standings.json
-          git commit -m "data: update World Cup standings"
+          git commit -m "data: update World Cup dashboard data"
           git push

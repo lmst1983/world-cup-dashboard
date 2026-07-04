@@ -22,6 +22,53 @@ DEFAULT_DATA_PATH = ROOT / "data" / "standings.json"
 GROUP_IDS = tuple("ABCDEFGHIJKL")
 FINISHED_STATUSES = {"FINISHED", "AWARDED"}
 
+STAGE_LABELS = {
+    "GROUP": "小组赛",
+    "LAST_32": "32强淘汰赛",
+    "ROUND_OF_32": "32强淘汰赛",
+    "LAST_16": "16强",
+    "ROUND_OF_16": "16强",
+    "QUARTER_FINALS": "1/4决赛",
+    "SEMI_FINALS": "半决赛",
+    "THIRD_PLACE": "季军赛",
+    "FINAL": "决赛",
+}
+
+STAGE_ORDER = {
+    "GROUP": 10,
+    "LAST_32": 20,
+    "ROUND_OF_32": 20,
+    "LAST_16": 30,
+    "ROUND_OF_16": 30,
+    "QUARTER_FINALS": 40,
+    "SEMI_FINALS": 50,
+    "THIRD_PLACE": 60,
+    "FINAL": 70,
+}
+
+KNOCKOUT_STAGES = (
+    "LAST_32",
+    "ROUND_OF_32",
+    "LAST_16",
+    "ROUND_OF_16",
+    "QUARTER_FINALS",
+    "SEMI_FINALS",
+    "THIRD_PLACE",
+    "FINAL",
+)
+
+STATUS_LABELS = {
+    "TIMED": "未开始",
+    "SCHEDULED": "已排期",
+    "IN_PLAY": "进行中",
+    "PAUSED": "中场",
+    "FINISHED": "已完赛",
+    "AWARDED": "已判定",
+    "POSTPONED": "延期",
+    "SUSPENDED": "暂停",
+    "CANCELLED": "取消",
+}
+
 TEAM_ALIASES = {
     "usa": "United States",
     "united states of america": "United States",
@@ -137,6 +184,33 @@ def extract_group_id(match: dict[str, Any]) -> str | None:
     return None
 
 
+def normalize_stage(value: Any) -> str:
+    normalized = str(value or "").upper().replace("-", "_").replace(" ", "_")
+    stage_aliases = {
+        "GROUP_STAGE": "GROUP",
+        "ROUND_OF_32": "LAST_32",
+        "ROUND_OF_16": "LAST_16",
+        "QUARTER_FINAL": "QUARTER_FINALS",
+        "SEMI_FINAL": "SEMI_FINALS",
+        "THIRD_PLACE_PLAYOFF": "THIRD_PLACE",
+        "PLAY_OFF_FOR_THIRD_PLACE": "THIRD_PLACE",
+    }
+    return stage_aliases.get(normalized, normalized)
+
+
+def extract_stage(match: dict[str, Any]) -> tuple[str, str, int, str | None]:
+    group_id = extract_group_id(match)
+    stage_id = normalize_stage(match.get("stage"))
+
+    if group_id:
+        return "GROUP", f"{group_id}组", STAGE_ORDER["GROUP"], group_id
+    if stage_id in STAGE_LABELS:
+        return stage_id, STAGE_LABELS[stage_id], STAGE_ORDER.get(stage_id, 90), None
+    if stage_id:
+        return stage_id, stage_id.replace("_", " ").title(), STAGE_ORDER.get(stage_id, 90), None
+    return "UNKNOWN", "待定阶段", 99, None
+
+
 def extract_score(match: dict[str, Any]) -> tuple[int, int] | None:
     score = match.get("score") or {}
     for key in ("fullTime", "regularTime"):
@@ -146,6 +220,145 @@ def extract_score(match: dict[str, Any]) -> tuple[int, int] | None:
         if isinstance(home, int) and isinstance(away, int):
             return home, away
     return None
+
+
+def extract_penalty_score(match: dict[str, Any]) -> tuple[int, int] | None:
+    score = match.get("score") or {}
+    value = score.get("penalties") or {}
+    home = value.get("home")
+    away = value.get("away")
+    if isinstance(home, int) and isinstance(away, int):
+        return home, away
+    return None
+
+
+def raw_team_name(team_payload: dict[str, Any]) -> str:
+    for key in ("name", "shortName", "tla"):
+        value = team_payload.get(key)
+        if value:
+            return str(value)
+    return "待定"
+
+
+def team_identity(
+    team_payload: dict[str, Any],
+    aliases: dict[str, str],
+    metadata: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
+    try:
+        canonical = resolve_team(team_payload, aliases)
+    except UpdateError:
+        display_name = raw_team_name(team_payload)
+        return {
+            "name": display_name,
+            "english": display_name,
+            "flag": "🏳️",
+            "colorA": "#61727a",
+            "colorB": "#24323c",
+        }
+
+    return {
+        key: metadata[canonical][key]
+        for key in ("name", "english", "flag", "colorA", "colorB")
+    }
+
+
+def score_winner_name(match: dict[str, Any], home: dict[str, Any], away: dict[str, Any]) -> str | None:
+    winner = (match.get("score") or {}).get("winner")
+    if winner == "HOME_TEAM":
+        return str(home["name"])
+    if winner == "AWAY_TEAM":
+        return str(away["name"])
+    return None
+
+
+def match_sort_key(match: dict[str, Any]) -> tuple[int, str, str]:
+    return (
+        int(match.get("stageOrder", 99)),
+        str(match.get("utcDate") or "9999-12-31T23:59:59Z"),
+        str(match.get("id") or ""),
+    )
+
+
+def build_match_schedule(
+    raw_matches: list[dict[str, Any]],
+    aliases: dict[str, str],
+    metadata: dict[str, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    schedule: list[dict[str, Any]] = []
+    seen: set[str] = set()
+
+    for raw_match in raw_matches:
+        stage_id, stage_label, stage_order, group_id = extract_stage(raw_match)
+        home = team_identity(raw_match.get("homeTeam") or {}, aliases, metadata)
+        away = team_identity(raw_match.get("awayTeam") or {}, aliases, metadata)
+        score = extract_score(raw_match)
+        penalties = extract_penalty_score(raw_match)
+        match_id = str(
+            raw_match.get("id")
+            or f"{stage_id}:{home['english']}:{away['english']}:{raw_match.get('utcDate', '')}"
+        )
+        if match_id in seen:
+            continue
+        seen.add(match_id)
+
+        schedule.append(
+            {
+                "id": match_id,
+                "utcDate": raw_match.get("utcDate"),
+                "status": raw_match.get("status") or "UNKNOWN",
+                "statusLabel": STATUS_LABELS.get(str(raw_match.get("status") or ""), "状态未知"),
+                "stage": stage_id,
+                "stageLabel": stage_label,
+                "stageOrder": stage_order,
+                "group": group_id,
+                "matchday": raw_match.get("matchday"),
+                "homeTeam": home,
+                "awayTeam": away,
+                "score": {
+                    "home": score[0] if score else None,
+                    "away": score[1] if score else None,
+                    "penaltiesHome": penalties[0] if penalties else None,
+                    "penaltiesAway": penalties[1] if penalties else None,
+                },
+                "winner": score_winner_name(raw_match, home, away),
+            }
+        )
+
+    return sorted(schedule, key=match_sort_key)
+
+
+def find_next_match(schedule: list[dict[str, Any]]) -> dict[str, Any] | None:
+    candidates = [
+        match
+        for match in schedule
+        if match.get("status") not in FINISHED_STATUSES
+        and match.get("status") not in {"CANCELLED", "SUSPENDED"}
+    ]
+    candidates.sort(key=lambda match: str(match.get("utcDate") or "9999-12-31T23:59:59Z"))
+    return candidates[0] if candidates else None
+
+
+def build_knockout(schedule: list[dict[str, Any]]) -> dict[str, Any]:
+    rounds: list[dict[str, Any]] = []
+    seen_rounds: set[str] = set()
+
+    for stage_id in KNOCKOUT_STAGES:
+        if stage_id in seen_rounds:
+            continue
+        stage_matches = [match for match in schedule if match["stage"] == stage_id]
+        if not stage_matches:
+            continue
+        seen_rounds.add(stage_id)
+        rounds.append(
+            {
+                "id": stage_id,
+                "label": STAGE_LABELS.get(stage_id, stage_id),
+                "matches": sorted(stage_matches, key=match_sort_key),
+            }
+        )
+
+    return {"rounds": rounds}
 
 
 def empty_stats() -> dict[str, int]:
@@ -246,11 +459,13 @@ def build_dashboard(
     stats = {team_name: empty_stats() for team_name in metadata}
     group_matches: dict[str, list[dict[str, Any]]] = {group_id: [] for group_id in GROUP_IDS}
     seen_matches: set[str] = set()
-    total_goals = 0
+    group_goals = 0
 
     raw_matches = payload.get("matches")
     if not isinstance(raw_matches, list):
         raise UpdateError("接口响应缺少 matches 数组")
+
+    schedule = build_match_schedule(raw_matches, aliases, metadata)
 
     for raw_match in raw_matches:
         if raw_match.get("status") not in FINISHED_STATUSES:
@@ -280,7 +495,7 @@ def build_dashboard(
         home_goals, away_goals = score
         apply_result(stats[home], home_goals, away_goals)
         apply_result(stats[away], away_goals, home_goals)
-        total_goals += home_goals + away_goals
+        group_goals += home_goals + away_goals
         group_matches[group_id].append(
             {
                 "home": home,
@@ -290,14 +505,15 @@ def build_dashboard(
             }
         )
 
-    played_matches = len(seen_matches)
-    previous_played = int(seed.get("summary", {}).get("playedMatches", 0))
-    if enforce_progress and played_matches < previous_played:
+    group_played_matches = len(seen_matches)
+    previous_summary = seed.get("summary", {})
+    previous_group_played = int(previous_summary.get("groupPlayedMatches", previous_summary.get("playedMatches", 0)))
+    if enforce_progress and group_played_matches < previous_group_played:
         raise UpdateError(
-            f"接口仅返回 {played_matches} 场已完赛小组赛，少于当前文件的 {previous_played} 场；已拒绝覆盖"
+            f"接口仅返回 {group_played_matches} 场已完赛小组赛，少于当前文件的 {previous_group_played} 场；已拒绝覆盖"
         )
-    if played_matches > 72:
-        raise UpdateError(f"小组赛场次数异常: {played_matches}")
+    if group_played_matches > 72:
+        raise UpdateError(f"小组赛场次数异常: {group_played_matches}")
     if any(team_stats["played"] > 3 for team_stats in stats.values()):
         raise UpdateError("至少一支球队的小组赛场次超过 3 场")
 
@@ -319,9 +535,21 @@ def build_dashboard(
             )
         output_groups.append({"id": group_id, "teams": output_teams})
 
+    finished_schedule = [
+        match
+        for match in schedule
+        if match["status"] in FINISHED_STATUSES
+        and isinstance(match["score"]["home"], int)
+        and isinstance(match["score"]["away"], int)
+    ]
+    played_matches = len(finished_schedule)
+    total_goals = sum(match["score"]["home"] + match["score"]["away"] for match in finished_schedule)
+    result_set = payload.get("resultSet") if isinstance(payload.get("resultSet"), dict) else {}
+    total_matches = int(result_set.get("count") or len(schedule) or previous_summary.get("totalMatches", 0))
+
     timestamp = updated_at or datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     return {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "competition": "FIFA World Cup 2026",
         "updatedAt": timestamp,
         "source": {
@@ -332,11 +560,18 @@ def build_dashboard(
         "summary": {
             "teams": len(metadata),
             "playedMatches": played_matches,
-            "totalMatches": 72,
+            "totalMatches": total_matches,
             "goals": total_goals,
             "averageGoals": round(total_goals / played_matches, 2) if played_matches else 0,
+            "groupPlayedMatches": group_played_matches,
+            "groupTotalMatches": 72,
+            "groupGoals": group_goals,
+            "knockoutPlayedMatches": max(0, played_matches - group_played_matches),
         },
         "groups": output_groups,
+        "matches": schedule,
+        "nextMatch": find_next_match(schedule),
+        "knockout": build_knockout(schedule),
     }
 
 
@@ -359,7 +594,7 @@ def atomic_write_json(path: Path, data: dict[str, Any]) -> None:
 
 
 def has_meaningful_change(current: dict[str, Any], updated: dict[str, Any]) -> bool:
-    keys = ("source", "summary", "groups")
+    keys = ("source", "summary", "groups", "matches", "nextMatch", "knockout")
     return any(current.get(key) != updated.get(key) for key in keys)
 
 
@@ -396,7 +631,7 @@ def main() -> int:
         current_output = load_json(args.output) if args.output.exists() else {}
         if not has_meaningful_change(current_output, dashboard):
             print(
-                f"积分无变化: {dashboard['summary']['playedMatches']} 场，"
+                f"数据无变化: {dashboard['summary']['playedMatches']} 场，"
                 f"{dashboard['summary']['goals']} 球"
             )
             return 0

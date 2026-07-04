@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="2026 世界杯小组赛积分驾驶舱，展示 12 个小组、48 支球队的实时积分概览。"
+      content="2026 世界杯全赛程驾驶舱，展示小组积分、淘汰赛比分、晋级路径和下一场比赛。"
     />
-    <title>2026 世界杯积分驾驶舱</title>
+    <title>2026 世界杯全赛程驾驶舱</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -19,7 +19,7 @@
           </span>
           <span>
             <strong>WORLD CUP</strong>
-            <small>GROUP STAGE</small>
+            <small>FULL SCHEDULE</small>
           </span>
         </a>
 
@@ -32,9 +32,17 @@
             <span class="nav-icon">⌗</span>
             <span>小组积分</span>
           </a>
-          <a class="side-nav__item" href="#status">
-            <span class="nav-icon">◉</span>
-            <span>晋级状态</span>
+          <a class="side-nav__item" href="#next-match">
+            <span class="nav-icon">↗</span>
+            <span>下一场</span>
+          </a>
+          <a class="side-nav__item" href="#schedule">
+            <span class="nav-icon">☷</span>
+            <span>全赛程</span>
+          </a>
+          <a class="side-nav__item" href="#bracket">
+            <span class="nav-icon">◇</span>
+            <span>晋级路径</span>
           </a>
         </nav>
 
@@ -44,9 +52,9 @@
         </div>
 
         <div class="sidebar-card">
-          <span class="sidebar-card__eyebrow">小组赛进度</span>
-          <strong id="progressCount">-- / 72</strong>
-          <div class="progress-track" id="progressTrack" aria-label="正在载入小组赛进度">
+          <span class="sidebar-card__eyebrow">全赛程进度</span>
+          <strong id="progressCount">-- / --</strong>
+          <div class="progress-track" id="progressTrack" aria-label="正在载入全赛程进度">
             <span id="progressBar" style="width: 0%"></span>
           </div>
           <small id="progressLabel">正在载入数据…</small>
@@ -75,8 +83,8 @@
               <span></span>
               MATCH CENTER
             </div>
-            <h1>小组赛<br /><em>战况总览</em></h1>
-            <p>聚合 12 个小组、48 支国家队的积分、净胜球与晋级态势。</p>
+            <h1>全赛程<br /><em>战况总览</em></h1>
+            <p>聚合小组积分、全赛程比分、淘汰赛晋级路径与下一场比赛。</p>
           </div>
 
           <div class="hero__visual" aria-hidden="true">
@@ -121,6 +129,57 @@
                 <small>场均进球</small>
               </div>
             </article>
+          </div>
+        </section>
+
+        <section class="next-match-section" id="next-match">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">NEXT MATCH</span>
+              <h2>下一场比赛</h2>
+            </div>
+          </div>
+          <div class="next-match-card" id="nextMatchCard">
+            <span class="placeholder-line">正在读取下一场比赛…</span>
+          </div>
+        </section>
+
+        <section class="schedule-section" id="schedule">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">MATCH SCHEDULE</span>
+              <h2>全赛程比分</h2>
+            </div>
+            <div class="legend" aria-label="赛程图例">
+              <span><i class="legend-dot legend-dot--qualified"></i>已完赛</span>
+              <span><i class="legend-dot legend-dot--leader"></i>下一场</span>
+            </div>
+          </div>
+
+          <div class="toolbar">
+            <div class="filter-row" id="scheduleFilters" aria-label="按阶段筛选赛程"></div>
+          </div>
+
+          <div class="matches-list" id="matchesList"></div>
+          <div class="empty-state" id="scheduleEmpty" hidden>
+            <span>☷</span>
+            <strong>暂未读取到完整赛程</strong>
+            <small>自动更新任务会在数据源返回赛程后补齐这里</small>
+          </div>
+        </section>
+
+        <section class="bracket-section" id="bracket">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">KNOCKOUT PATH</span>
+              <h2>淘汰赛晋级路径</h2>
+            </div>
+          </div>
+          <div class="bracket-grid" id="bracketGrid"></div>
+          <div class="empty-state" id="bracketEmpty" hidden>
+            <span>◇</span>
+            <strong>等待淘汰赛赛程</strong>
+            <small>出现 32 强、16 强、1/4 决赛等数据后会自动生成路径图</small>
           </div>
         </section>
 
