@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-04T23:29:16Z",
+  "updatedAt": "2026-07-05T08:29:38Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -3932,18 +3932,18 @@
       "group": null,
       "matchday": null,
       "homeTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "法国",
+        "english": "France",
+        "flag": "🇫🇷",
+        "colorA": "#0055a4",
+        "colorB": "#ef4135"
       },
       "awayTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "摩洛哥",
+        "english": "Morocco",
+        "flag": "🇲🇦",
+        "colorA": "#c1272d",
+        "colorB": "#006233"
       },
       "score": {
         "home": null,
@@ -5007,18 +5007,18 @@
             "group": null,
             "matchday": null,
             "homeTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "法国",
+              "english": "France",
+              "flag": "🇫🇷",
+              "colorA": "#0055a4",
+              "colorB": "#ef4135"
             },
             "awayTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "摩洛哥",
+              "english": "Morocco",
+              "flag": "🇲🇦",
+              "colorA": "#c1272d",
+              "colorB": "#006233"
             },
             "score": {
               "home": null,
