@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-05T21:17:58Z",
+  "updatedAt": "2026-07-05T22:28:27Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 90,
+    "playedMatches": 91,
     "totalMatches": 104,
-    "goals": 279,
+    "goals": 282,
     "averageGoals": 3.1,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
-    "knockoutPlayedMatches": 18
+    "knockoutPlayedMatches": 19
   },
   "groups": [
     {
@@ -3732,8 +3732,8 @@
     {
       "id": "537377",
       "utcDate": "2026-07-05T20:00:00Z",
-      "status": "LIVE",
-      "statusLabel": "状态未知",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
       "stage": "LAST_16",
       "stageLabel": "16强",
       "stageOrder": 30,
@@ -3754,12 +3754,12 @@
         "colorB": "#00205b"
       },
       "score": {
-        "home": 0,
-        "away": 0,
+        "home": 1,
+        "away": 2,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "挪威"
     },
     {
       "id": "537378",
@@ -4179,32 +4179,32 @@
     }
   ],
   "nextMatch": {
-    "id": "537377",
-    "utcDate": "2026-07-05T20:00:00Z",
-    "status": "LIVE",
-    "statusLabel": "状态未知",
+    "id": "537378",
+    "utcDate": "2026-07-06T00:00:00Z",
+    "status": "TIMED",
+    "statusLabel": "未开始",
     "stage": "LAST_16",
     "stageLabel": "16强",
     "stageOrder": 30,
     "group": null,
     "matchday": null,
     "homeTeam": {
-      "name": "巴西",
-      "english": "Brazil",
-      "flag": "🇧🇷",
-      "colorA": "#ffdf00",
-      "colorB": "#009c3b"
+      "name": "墨西哥",
+      "english": "Mexico",
+      "flag": "🇲🇽",
+      "colorA": "#006847",
+      "colorB": "#ce1126"
     },
     "awayTeam": {
-      "name": "挪威",
-      "english": "Norway",
-      "flag": "🇳🇴",
-      "colorA": "#ba0c2f",
-      "colorB": "#00205b"
+      "name": "英格兰",
+      "english": "England",
+      "flag": "🏴",
+      "colorA": "#ffffff",
+      "colorB": "#ce1124"
     },
     "score": {
-      "home": 0,
-      "away": 0,
+      "home": null,
+      "away": null,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -4801,8 +4801,8 @@
           {
             "id": "537377",
             "utcDate": "2026-07-05T20:00:00Z",
-            "status": "LIVE",
-            "statusLabel": "状态未知",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
             "stage": "LAST_16",
             "stageLabel": "16强",
             "stageOrder": 30,
@@ -4823,12 +4823,12 @@
               "colorB": "#00205b"
             },
             "score": {
-              "home": 0,
-              "away": 0,
+              "home": 1,
+              "away": 2,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "挪威"
           },
           {
             "id": "537378",
