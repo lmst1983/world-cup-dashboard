@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-05T22:28:27Z",
+  "updatedAt": "2026-07-05T23:35:16Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -3763,9 +3763,9 @@
     },
     {
       "id": "537378",
-      "utcDate": "2026-07-06T00:00:00Z",
-      "status": "TIMED",
-      "statusLabel": "未开始",
+      "utcDate": "2026-07-06T01:00:00Z",
+      "status": "2026-07-06 01:00:00Z",
+      "statusLabel": "状态未知",
       "stage": "LAST_16",
       "stageLabel": "16强",
       "stageOrder": 30,
@@ -4180,9 +4180,9 @@
   ],
   "nextMatch": {
     "id": "537378",
-    "utcDate": "2026-07-06T00:00:00Z",
-    "status": "TIMED",
-    "statusLabel": "未开始",
+    "utcDate": "2026-07-06T01:00:00Z",
+    "status": "2026-07-06 01:00:00Z",
+    "statusLabel": "状态未知",
     "stage": "LAST_16",
     "stageLabel": "16强",
     "stageOrder": 30,
@@ -4832,9 +4832,9 @@
           },
           {
             "id": "537378",
-            "utcDate": "2026-07-06T00:00:00Z",
-            "status": "TIMED",
-            "statusLabel": "未开始",
+            "utcDate": "2026-07-06T01:00:00Z",
+            "status": "2026-07-06 01:00:00Z",
+            "statusLabel": "状态未知",
             "stage": "LAST_16",
             "stageLabel": "16强",
             "stageOrder": 30,
