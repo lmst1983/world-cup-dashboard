@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-05T12:03:11Z",
+  "updatedAt": "2026-07-05T20:06:50Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -3732,8 +3732,8 @@
     {
       "id": "537377",
       "utcDate": "2026-07-05T20:00:00Z",
-      "status": "TIMED",
-      "statusLabel": "未开始",
+      "status": "IN_PLAY",
+      "statusLabel": "进行中",
       "stage": "LAST_16",
       "stageLabel": "16强",
       "stageOrder": 30,
@@ -3754,8 +3754,8 @@
         "colorB": "#00205b"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
@@ -4181,8 +4181,8 @@
   "nextMatch": {
     "id": "537377",
     "utcDate": "2026-07-05T20:00:00Z",
-    "status": "TIMED",
-    "statusLabel": "未开始",
+    "status": "IN_PLAY",
+    "statusLabel": "进行中",
     "stage": "LAST_16",
     "stageLabel": "16强",
     "stageOrder": 30,
@@ -4203,8 +4203,8 @@
       "colorB": "#00205b"
     },
     "score": {
-      "home": null,
-      "away": null,
+      "home": 0,
+      "away": 0,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -4801,8 +4801,8 @@
           {
             "id": "537377",
             "utcDate": "2026-07-05T20:00:00Z",
-            "status": "TIMED",
-            "statusLabel": "未开始",
+            "status": "IN_PLAY",
+            "statusLabel": "进行中",
             "stage": "LAST_16",
             "stageLabel": "16强",
             "stageOrder": 30,
@@ -4823,8 +4823,8 @@
               "colorB": "#00205b"
             },
             "score": {
-              "home": null,
-              "away": null,
+              "home": 0,
+              "away": 0,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
