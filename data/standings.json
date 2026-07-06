@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-06T20:47:40Z",
+  "updatedAt": "2026-07-06T22:07:01Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 92,
+    "playedMatches": 93,
     "totalMatches": 104,
-    "goals": 287,
-    "averageGoals": 3.12,
+    "goals": 288,
+    "averageGoals": 3.1,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
-    "knockoutPlayedMatches": 20
+    "knockoutPlayedMatches": 21
   },
   "groups": [
     {
@@ -3796,8 +3796,8 @@
     {
       "id": "537379",
       "utcDate": "2026-07-06T19:00:00Z",
-      "status": "IN_PLAY",
-      "statusLabel": "进行中",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
       "stage": "LAST_16",
       "stageLabel": "16强",
       "stageOrder": 30,
@@ -3819,11 +3819,11 @@
       },
       "score": {
         "home": 0,
-        "away": 0,
+        "away": 1,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "西班牙"
     },
     {
       "id": "537380",
@@ -4179,32 +4179,32 @@
     }
   ],
   "nextMatch": {
-    "id": "537379",
-    "utcDate": "2026-07-06T19:00:00Z",
-    "status": "IN_PLAY",
-    "statusLabel": "进行中",
+    "id": "537380",
+    "utcDate": "2026-07-07T00:00:00Z",
+    "status": "TIMED",
+    "statusLabel": "未开始",
     "stage": "LAST_16",
     "stageLabel": "16强",
     "stageOrder": 30,
     "group": null,
     "matchday": null,
     "homeTeam": {
-      "name": "葡萄牙",
-      "english": "Portugal",
-      "flag": "🇵🇹",
-      "colorA": "#046a38",
-      "colorB": "#da291c"
+      "name": "美国",
+      "english": "United States",
+      "flag": "🇺🇸",
+      "colorA": "#3c3b6e",
+      "colorB": "#b22234"
     },
     "awayTeam": {
-      "name": "西班牙",
-      "english": "Spain",
-      "flag": "🇪🇸",
-      "colorA": "#aa151b",
-      "colorB": "#f1bf00"
+      "name": "比利时",
+      "english": "Belgium",
+      "flag": "🇧🇪",
+      "colorA": "#111111",
+      "colorB": "#fdda24"
     },
     "score": {
-      "home": 0,
-      "away": 0,
+      "home": null,
+      "away": null,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -4865,8 +4865,8 @@
           {
             "id": "537379",
             "utcDate": "2026-07-06T19:00:00Z",
-            "status": "IN_PLAY",
-            "statusLabel": "进行中",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
             "stage": "LAST_16",
             "stageLabel": "16强",
             "stageOrder": 30,
@@ -4888,11 +4888,11 @@
             },
             "score": {
               "home": 0,
-              "away": 0,
+              "away": 1,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "西班牙"
           },
           {
             "id": "537380",
