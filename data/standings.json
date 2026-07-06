@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-06T05:48:08Z",
+  "updatedAt": "2026-07-06T09:58:54Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -3996,18 +3996,18 @@
       "group": null,
       "matchday": null,
       "homeTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "挪威",
+        "english": "Norway",
+        "flag": "🇳🇴",
+        "colorA": "#ba0c2f",
+        "colorB": "#00205b"
       },
       "awayTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "英格兰",
+        "english": "England",
+        "flag": "🏴",
+        "colorA": "#ffffff",
+        "colorB": "#ce1124"
       },
       "score": {
         "home": null,
@@ -5071,18 +5071,18 @@
             "group": null,
             "matchday": null,
             "homeTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "挪威",
+              "english": "Norway",
+              "flag": "🇳🇴",
+              "colorA": "#ba0c2f",
+              "colorB": "#00205b"
             },
             "awayTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "英格兰",
+              "english": "England",
+              "flag": "🏴",
+              "colorA": "#ffffff",
+              "colorB": "#ce1124"
             },
             "score": {
               "home": null,
