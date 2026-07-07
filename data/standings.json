@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-07T22:52:33Z",
+  "updatedAt": "2026-07-07T23:50:19Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -11,8 +11,8 @@
     "teams": 48,
     "playedMatches": 96,
     "totalMatches": 104,
-    "goals": 302,
-    "averageGoals": 3.15,
+    "goals": 305,
+    "averageGoals": 3.18,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
@@ -3914,10 +3914,10 @@
         "colorB": "#003893"
       },
       "score": {
-        "home": 2,
-        "away": 2,
-        "penaltiesHome": 2,
-        "penaltiesAway": 2
+        "home": 4,
+        "away": 3,
+        "penaltiesHome": 3,
+        "penaltiesAway": 3
       },
       "winner": null
     },
@@ -4983,10 +4983,10 @@
               "colorB": "#003893"
             },
             "score": {
-              "home": 2,
-              "away": 2,
-              "penaltiesHome": 2,
-              "penaltiesAway": 2
+              "home": 4,
+              "away": 3,
+              "penaltiesHome": 3,
+              "penaltiesAway": 3
             },
             "winner": null
           }
