@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-06T22:07:01Z",
+  "updatedAt": "2026-07-07T01:14:03Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -3828,8 +3828,8 @@
     {
       "id": "537380",
       "utcDate": "2026-07-07T00:00:00Z",
-      "status": "TIMED",
-      "statusLabel": "未开始",
+      "status": "PAUSED",
+      "statusLabel": "中场",
       "stage": "LAST_16",
       "stageLabel": "16强",
       "stageOrder": 30,
@@ -3850,12 +3850,12 @@
         "colorB": "#fdda24"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 2,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "比利时"
     },
     {
       "id": "537381",
@@ -4181,8 +4181,8 @@
   "nextMatch": {
     "id": "537380",
     "utcDate": "2026-07-07T00:00:00Z",
-    "status": "TIMED",
-    "statusLabel": "未开始",
+    "status": "PAUSED",
+    "statusLabel": "中场",
     "stage": "LAST_16",
     "stageLabel": "16强",
     "stageOrder": 30,
@@ -4203,12 +4203,12 @@
       "colorB": "#fdda24"
     },
     "score": {
-      "home": null,
-      "away": null,
+      "home": 1,
+      "away": 2,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
-    "winner": null
+    "winner": "比利时"
   },
   "knockout": {
     "rounds": [
@@ -4897,8 +4897,8 @@
           {
             "id": "537380",
             "utcDate": "2026-07-07T00:00:00Z",
-            "status": "TIMED",
-            "statusLabel": "未开始",
+            "status": "PAUSED",
+            "statusLabel": "中场",
             "stage": "LAST_16",
             "stageLabel": "16强",
             "stageOrder": 30,
@@ -4919,12 +4919,12 @@
               "colorB": "#fdda24"
             },
             "score": {
-              "home": null,
-              "away": null,
+              "home": 1,
+              "away": 2,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "比利时"
           },
           {
             "id": "537381",
