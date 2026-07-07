@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-07T01:14:03Z",
+  "updatedAt": "2026-07-07T05:07:36Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 93,
+    "playedMatches": 94,
     "totalMatches": 104,
-    "goals": 288,
-    "averageGoals": 3.1,
+    "goals": 293,
+    "averageGoals": 3.12,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
-    "knockoutPlayedMatches": 21
+    "knockoutPlayedMatches": 22
   },
   "groups": [
     {
@@ -3828,8 +3828,8 @@
     {
       "id": "537380",
       "utcDate": "2026-07-07T00:00:00Z",
-      "status": "PAUSED",
-      "statusLabel": "中场",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
       "stage": "LAST_16",
       "stageLabel": "16强",
       "stageOrder": 30,
@@ -3851,7 +3851,7 @@
       },
       "score": {
         "home": 1,
-        "away": 2,
+        "away": 4,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
@@ -4179,36 +4179,36 @@
     }
   ],
   "nextMatch": {
-    "id": "537380",
-    "utcDate": "2026-07-07T00:00:00Z",
-    "status": "PAUSED",
-    "statusLabel": "中场",
+    "id": "537381",
+    "utcDate": "2026-07-07T16:00:00Z",
+    "status": "TIMED",
+    "statusLabel": "未开始",
     "stage": "LAST_16",
     "stageLabel": "16强",
     "stageOrder": 30,
     "group": null,
     "matchday": null,
     "homeTeam": {
-      "name": "美国",
-      "english": "United States",
-      "flag": "🇺🇸",
-      "colorA": "#3c3b6e",
-      "colorB": "#b22234"
+      "name": "阿根廷",
+      "english": "Argentina",
+      "flag": "🇦🇷",
+      "colorA": "#74acdf",
+      "colorB": "#ffffff"
     },
     "awayTeam": {
-      "name": "比利时",
-      "english": "Belgium",
-      "flag": "🇧🇪",
-      "colorA": "#111111",
-      "colorB": "#fdda24"
+      "name": "埃及",
+      "english": "Egypt",
+      "flag": "🇪🇬",
+      "colorA": "#ce1126",
+      "colorB": "#111111"
     },
     "score": {
-      "home": 1,
-      "away": 2,
+      "home": null,
+      "away": null,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
-    "winner": "比利时"
+    "winner": null
   },
   "knockout": {
     "rounds": [
@@ -4897,8 +4897,8 @@
           {
             "id": "537380",
             "utcDate": "2026-07-07T00:00:00Z",
-            "status": "PAUSED",
-            "statusLabel": "中场",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
             "stage": "LAST_16",
             "stageLabel": "16强",
             "stageOrder": 30,
@@ -4920,7 +4920,7 @@
             },
             "score": {
               "home": 1,
-              "away": 2,
+              "away": 4,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
