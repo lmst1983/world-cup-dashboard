@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-07T16:10:20Z",
+  "updatedAt": "2026-07-07T18:17:58Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 94,
+    "playedMatches": 95,
     "totalMatches": 104,
-    "goals": 293,
-    "averageGoals": 3.12,
+    "goals": 298,
+    "averageGoals": 3.14,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
-    "knockoutPlayedMatches": 22
+    "knockoutPlayedMatches": 23
   },
   "groups": [
     {
@@ -3860,8 +3860,8 @@
     {
       "id": "537381",
       "utcDate": "2026-07-07T16:00:00Z",
-      "status": "LIVE",
-      "statusLabel": "状态未知",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
       "stage": "LAST_16",
       "stageLabel": "16强",
       "stageOrder": 30,
@@ -3882,12 +3882,12 @@
         "colorB": "#111111"
       },
       "score": {
-        "home": 0,
-        "away": 0,
+        "home": 3,
+        "away": 2,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "阿根廷"
     },
     {
       "id": "537382",
@@ -4179,32 +4179,32 @@
     }
   ],
   "nextMatch": {
-    "id": "537381",
-    "utcDate": "2026-07-07T16:00:00Z",
-    "status": "LIVE",
-    "statusLabel": "状态未知",
+    "id": "537382",
+    "utcDate": "2026-07-07T20:00:00Z",
+    "status": "TIMED",
+    "statusLabel": "未开始",
     "stage": "LAST_16",
     "stageLabel": "16强",
     "stageOrder": 30,
     "group": null,
     "matchday": null,
     "homeTeam": {
-      "name": "阿根廷",
-      "english": "Argentina",
-      "flag": "🇦🇷",
-      "colorA": "#74acdf",
+      "name": "瑞士",
+      "english": "Switzerland",
+      "flag": "🇨🇭",
+      "colorA": "#d52b1e",
       "colorB": "#ffffff"
     },
     "awayTeam": {
-      "name": "埃及",
-      "english": "Egypt",
-      "flag": "🇪🇬",
-      "colorA": "#ce1126",
-      "colorB": "#111111"
+      "name": "哥伦比亚",
+      "english": "Colombia",
+      "flag": "🇨🇴",
+      "colorA": "#fcd116",
+      "colorB": "#003893"
     },
     "score": {
-      "home": 0,
-      "away": 0,
+      "home": null,
+      "away": null,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -4929,8 +4929,8 @@
           {
             "id": "537381",
             "utcDate": "2026-07-07T16:00:00Z",
-            "status": "LIVE",
-            "statusLabel": "状态未知",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
             "stage": "LAST_16",
             "stageLabel": "16强",
             "stageOrder": 30,
@@ -4951,12 +4951,12 @@
               "colorB": "#111111"
             },
             "score": {
-              "home": 0,
-              "away": 0,
+              "home": 3,
+              "away": 2,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "阿根廷"
           },
           {
             "id": "537382",
