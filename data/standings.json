@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-07T05:07:36Z",
+  "updatedAt": "2026-07-07T08:39:02Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -3964,18 +3964,18 @@
       "group": null,
       "matchday": null,
       "homeTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "西班牙",
+        "english": "Spain",
+        "flag": "🇪🇸",
+        "colorA": "#aa151b",
+        "colorB": "#f1bf00"
       },
       "awayTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "比利时",
+        "english": "Belgium",
+        "flag": "🇧🇪",
+        "colorA": "#111111",
+        "colorB": "#fdda24"
       },
       "score": {
         "home": null,
@@ -5039,18 +5039,18 @@
             "group": null,
             "matchday": null,
             "homeTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "西班牙",
+              "english": "Spain",
+              "flag": "🇪🇸",
+              "colorA": "#aa151b",
+              "colorB": "#f1bf00"
             },
             "awayTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "比利时",
+              "english": "Belgium",
+              "flag": "🇧🇪",
+              "colorA": "#111111",
+              "colorB": "#fdda24"
             },
             "score": {
               "home": null,
