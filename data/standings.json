@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-07T20:21:52Z",
+  "updatedAt": "2026-07-07T22:52:33Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 95,
+    "playedMatches": 96,
     "totalMatches": 104,
-    "goals": 298,
-    "averageGoals": 3.14,
+    "goals": 302,
+    "averageGoals": 3.15,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
-    "knockoutPlayedMatches": 23
+    "knockoutPlayedMatches": 24
   },
   "groups": [
     {
@@ -3892,8 +3892,8 @@
     {
       "id": "537382",
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "IN_PLAY",
-      "statusLabel": "进行中",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
       "stage": "LAST_16",
       "stageLabel": "16强",
       "stageOrder": 30,
@@ -3914,10 +3914,10 @@
         "colorB": "#003893"
       },
       "score": {
-        "home": 0,
-        "away": 0,
-        "penaltiesHome": null,
-        "penaltiesAway": null
+        "home": 2,
+        "away": 2,
+        "penaltiesHome": 2,
+        "penaltiesAway": 2
       },
       "winner": null
     },
@@ -4179,32 +4179,32 @@
     }
   ],
   "nextMatch": {
-    "id": "537382",
-    "utcDate": "2026-07-07T20:00:00Z",
-    "status": "IN_PLAY",
-    "statusLabel": "进行中",
-    "stage": "LAST_16",
-    "stageLabel": "16强",
-    "stageOrder": 30,
+    "id": "537383",
+    "utcDate": "2026-07-09T20:00:00Z",
+    "status": "TIMED",
+    "statusLabel": "未开始",
+    "stage": "QUARTER_FINALS",
+    "stageLabel": "1/4决赛",
+    "stageOrder": 40,
     "group": null,
     "matchday": null,
     "homeTeam": {
-      "name": "瑞士",
-      "english": "Switzerland",
-      "flag": "🇨🇭",
-      "colorA": "#d52b1e",
-      "colorB": "#ffffff"
+      "name": "法国",
+      "english": "France",
+      "flag": "🇫🇷",
+      "colorA": "#0055a4",
+      "colorB": "#ef4135"
     },
     "awayTeam": {
-      "name": "哥伦比亚",
-      "english": "Colombia",
-      "flag": "🇨🇴",
-      "colorA": "#fcd116",
-      "colorB": "#003893"
+      "name": "摩洛哥",
+      "english": "Morocco",
+      "flag": "🇲🇦",
+      "colorA": "#c1272d",
+      "colorB": "#006233"
     },
     "score": {
-      "home": 0,
-      "away": 0,
+      "home": null,
+      "away": null,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -4961,8 +4961,8 @@
           {
             "id": "537382",
             "utcDate": "2026-07-07T20:00:00Z",
-            "status": "IN_PLAY",
-            "statusLabel": "进行中",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
             "stage": "LAST_16",
             "stageLabel": "16强",
             "stageOrder": 30,
@@ -4983,10 +4983,10 @@
               "colorB": "#003893"
             },
             "score": {
-              "home": 0,
-              "away": 0,
-              "penaltiesHome": null,
-              "penaltiesAway": null
+              "home": 2,
+              "away": 2,
+              "penaltiesHome": 2,
+              "penaltiesAway": 2
             },
             "winner": null
           }
