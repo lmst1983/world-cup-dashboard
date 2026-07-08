@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-07T23:50:19Z",
+  "updatedAt": "2026-07-08T07:41:39Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -3916,10 +3916,10 @@
       "score": {
         "home": 4,
         "away": 3,
-        "penaltiesHome": 3,
+        "penaltiesHome": 4,
         "penaltiesAway": 3
       },
-      "winner": null
+      "winner": "瑞士"
     },
     {
       "id": "537383",
@@ -4028,18 +4028,18 @@
       "group": null,
       "matchday": null,
       "homeTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "阿根廷",
+        "english": "Argentina",
+        "flag": "🇦🇷",
+        "colorA": "#74acdf",
+        "colorB": "#ffffff"
       },
       "awayTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "瑞士",
+        "english": "Switzerland",
+        "flag": "🇨🇭",
+        "colorA": "#d52b1e",
+        "colorB": "#ffffff"
       },
       "score": {
         "home": null,
@@ -4985,10 +4985,10 @@
             "score": {
               "home": 4,
               "away": 3,
-              "penaltiesHome": 3,
+              "penaltiesHome": 4,
               "penaltiesAway": 3
             },
-            "winner": null
+            "winner": "瑞士"
           }
         ]
       },
@@ -5103,18 +5103,18 @@
             "group": null,
             "matchday": null,
             "homeTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "阿根廷",
+              "english": "Argentina",
+              "flag": "🇦🇷",
+              "colorA": "#74acdf",
+              "colorB": "#ffffff"
             },
             "awayTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "瑞士",
+              "english": "Switzerland",
+              "flag": "🇨🇭",
+              "colorA": "#d52b1e",
+              "colorB": "#ffffff"
             },
             "score": {
               "home": null,
