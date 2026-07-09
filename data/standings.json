@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-09T20:48:32Z",
+  "updatedAt": "2026-07-09T22:15:05Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 96,
+    "playedMatches": 97,
     "totalMatches": 104,
-    "goals": 305,
-    "averageGoals": 3.18,
+    "goals": 307,
+    "averageGoals": 3.16,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
-    "knockoutPlayedMatches": 24
+    "knockoutPlayedMatches": 25
   },
   "groups": [
     {
@@ -3924,8 +3924,8 @@
     {
       "id": "537383",
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "IN_PLAY",
-      "statusLabel": "进行中",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
       "stage": "QUARTER_FINALS",
       "stageLabel": "1/4决赛",
       "stageOrder": 40,
@@ -3946,12 +3946,12 @@
         "colorB": "#006233"
       },
       "score": {
-        "home": 0,
+        "home": 2,
         "away": 0,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "法国"
     },
     {
       "id": "537384",
@@ -4179,32 +4179,32 @@
     }
   ],
   "nextMatch": {
-    "id": "537383",
-    "utcDate": "2026-07-09T20:00:00Z",
-    "status": "IN_PLAY",
-    "statusLabel": "进行中",
+    "id": "537384",
+    "utcDate": "2026-07-10T19:00:00Z",
+    "status": "TIMED",
+    "statusLabel": "未开始",
     "stage": "QUARTER_FINALS",
     "stageLabel": "1/4决赛",
     "stageOrder": 40,
     "group": null,
     "matchday": null,
     "homeTeam": {
-      "name": "法国",
-      "english": "France",
-      "flag": "🇫🇷",
-      "colorA": "#0055a4",
-      "colorB": "#ef4135"
+      "name": "西班牙",
+      "english": "Spain",
+      "flag": "🇪🇸",
+      "colorA": "#aa151b",
+      "colorB": "#f1bf00"
     },
     "awayTeam": {
-      "name": "摩洛哥",
-      "english": "Morocco",
-      "flag": "🇲🇦",
-      "colorA": "#c1272d",
-      "colorB": "#006233"
+      "name": "比利时",
+      "english": "Belgium",
+      "flag": "🇧🇪",
+      "colorA": "#111111",
+      "colorB": "#fdda24"
     },
     "score": {
-      "home": 0,
-      "away": 0,
+      "home": null,
+      "away": null,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -4999,8 +4999,8 @@
           {
             "id": "537383",
             "utcDate": "2026-07-09T20:00:00Z",
-            "status": "IN_PLAY",
-            "statusLabel": "进行中",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
             "stage": "QUARTER_FINALS",
             "stageLabel": "1/4决赛",
             "stageOrder": 40,
@@ -5021,12 +5021,12 @@
               "colorB": "#006233"
             },
             "score": {
-              "home": 0,
+              "home": 2,
               "away": 0,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "法国"
           },
           {
             "id": "537384",
