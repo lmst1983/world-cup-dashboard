@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-08T07:41:39Z",
+  "updatedAt": "2026-07-09T20:48:32Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -3924,8 +3924,8 @@
     {
       "id": "537383",
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "TIMED",
-      "statusLabel": "未开始",
+      "status": "IN_PLAY",
+      "statusLabel": "进行中",
       "stage": "QUARTER_FINALS",
       "stageLabel": "1/4决赛",
       "stageOrder": 40,
@@ -3946,8 +3946,8 @@
         "colorB": "#006233"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
@@ -4181,8 +4181,8 @@
   "nextMatch": {
     "id": "537383",
     "utcDate": "2026-07-09T20:00:00Z",
-    "status": "TIMED",
-    "statusLabel": "未开始",
+    "status": "IN_PLAY",
+    "statusLabel": "进行中",
     "stage": "QUARTER_FINALS",
     "stageLabel": "1/4决赛",
     "stageOrder": 40,
@@ -4203,8 +4203,8 @@
       "colorB": "#006233"
     },
     "score": {
-      "home": null,
-      "away": null,
+      "home": 0,
+      "away": 0,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -4999,8 +4999,8 @@
           {
             "id": "537383",
             "utcDate": "2026-07-09T20:00:00Z",
-            "status": "TIMED",
-            "statusLabel": "未开始",
+            "status": "IN_PLAY",
+            "statusLabel": "进行中",
             "stage": "QUARTER_FINALS",
             "stageLabel": "1/4决赛",
             "stageOrder": 40,
@@ -5021,8 +5021,8 @@
               "colorB": "#006233"
             },
             "score": {
-              "home": null,
-              "away": null,
+              "home": 0,
+              "away": 0,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
