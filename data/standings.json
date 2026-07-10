@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-10T20:52:04Z",
+  "updatedAt": "2026-07-10T21:52:55Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 97,
+    "playedMatches": 98,
     "totalMatches": 104,
-    "goals": 307,
+    "goals": 310,
     "averageGoals": 3.16,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
-    "knockoutPlayedMatches": 25
+    "knockoutPlayedMatches": 26
   },
   "groups": [
     {
@@ -3956,8 +3956,8 @@
     {
       "id": "537384",
       "utcDate": "2026-07-10T19:00:00Z",
-      "status": "IN_PLAY",
-      "statusLabel": "进行中",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
       "stage": "QUARTER_FINALS",
       "stageLabel": "1/4决赛",
       "stageOrder": 40,
@@ -3978,12 +3978,12 @@
         "colorB": "#fdda24"
       },
       "score": {
-        "home": 1,
+        "home": 2,
         "away": 1,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "西班牙"
     },
     {
       "id": "537385",
@@ -4179,32 +4179,32 @@
     }
   ],
   "nextMatch": {
-    "id": "537384",
-    "utcDate": "2026-07-10T19:00:00Z",
-    "status": "IN_PLAY",
-    "statusLabel": "进行中",
+    "id": "537385",
+    "utcDate": "2026-07-11T21:00:00Z",
+    "status": "TIMED",
+    "statusLabel": "未开始",
     "stage": "QUARTER_FINALS",
     "stageLabel": "1/4决赛",
     "stageOrder": 40,
     "group": null,
     "matchday": null,
     "homeTeam": {
-      "name": "西班牙",
-      "english": "Spain",
-      "flag": "🇪🇸",
-      "colorA": "#aa151b",
-      "colorB": "#f1bf00"
+      "name": "挪威",
+      "english": "Norway",
+      "flag": "🇳🇴",
+      "colorA": "#ba0c2f",
+      "colorB": "#00205b"
     },
     "awayTeam": {
-      "name": "比利时",
-      "english": "Belgium",
-      "flag": "🇧🇪",
-      "colorA": "#111111",
-      "colorB": "#fdda24"
+      "name": "英格兰",
+      "english": "England",
+      "flag": "🏴",
+      "colorA": "#ffffff",
+      "colorB": "#ce1124"
     },
     "score": {
-      "home": 1,
-      "away": 1,
+      "home": null,
+      "away": null,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -5031,8 +5031,8 @@
           {
             "id": "537384",
             "utcDate": "2026-07-10T19:00:00Z",
-            "status": "IN_PLAY",
-            "statusLabel": "进行中",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
             "stage": "QUARTER_FINALS",
             "stageLabel": "1/4决赛",
             "stageOrder": 40,
@@ -5053,12 +5053,12 @@
               "colorB": "#fdda24"
             },
             "score": {
-              "home": 1,
+              "home": 2,
               "away": 1,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "西班牙"
           },
           {
             "id": "537385",
