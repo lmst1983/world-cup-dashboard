@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-10T21:52:55Z",
+  "updatedAt": "2026-07-11T07:09:24Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -4067,11 +4067,11 @@
         "colorB": "#ef4135"
       },
       "awayTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "西班牙",
+        "english": "Spain",
+        "flag": "🇪🇸",
+        "colorA": "#aa151b",
+        "colorB": "#f1bf00"
       },
       "score": {
         "home": null,
@@ -5148,11 +5148,11 @@
               "colorB": "#ef4135"
             },
             "awayTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "西班牙",
+              "english": "Spain",
+              "flag": "🇪🇸",
+              "colorA": "#aa151b",
+              "colorB": "#f1bf00"
             },
             "score": {
               "home": null,
