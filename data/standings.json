@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-11T21:31:42Z",
+  "updatedAt": "2026-07-11T22:29:26Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -4010,12 +4010,12 @@
         "colorB": "#ce1124"
       },
       "score": {
-        "home": 0,
-        "away": 0,
+        "home": 2,
+        "away": 1,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "挪威"
     },
     {
       "id": "537386",
@@ -5085,12 +5085,12 @@
               "colorB": "#ce1124"
             },
             "score": {
-              "home": 0,
-              "away": 0,
+              "home": 2,
+              "away": 1,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "挪威"
           },
           {
             "id": "537386",
