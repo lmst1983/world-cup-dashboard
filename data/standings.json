@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-11T23:28:21Z",
+  "updatedAt": "2026-07-12T01:04:33Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 97,
+    "playedMatches": 98,
     "totalMatches": 104,
-    "goals": 305,
+    "goals": 308,
     "averageGoals": 3.14,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
-    "knockoutPlayedMatches": 25
+    "knockoutPlayedMatches": 26
   },
   "groups": [
     {
@@ -3988,8 +3988,8 @@
     {
       "id": "537385",
       "utcDate": "2026-07-11T21:00:00Z",
-      "status": "IN_PLAY",
-      "statusLabel": "进行中",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
       "stage": "QUARTER_FINALS",
       "stageLabel": "1/4决赛",
       "stageOrder": 40,
@@ -5063,8 +5063,8 @@
           {
             "id": "537385",
             "utcDate": "2026-07-11T21:00:00Z",
-            "status": "IN_PLAY",
-            "statusLabel": "进行中",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
             "stage": "QUARTER_FINALS",
             "stageLabel": "1/4决赛",
             "stageOrder": 40,
