@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-12T07:14:18Z",
+  "updatedAt": "2026-07-14T19:14:08Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -4052,8 +4052,8 @@
     {
       "id": "537387",
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "TIMED",
-      "statusLabel": "未开始",
+      "status": "IN_PLAY",
+      "statusLabel": "进行中",
       "stage": "SEMI_FINALS",
       "stageLabel": "半决赛",
       "stageOrder": 50,
@@ -4074,8 +4074,8 @@
         "colorB": "#f1bf00"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
@@ -4181,8 +4181,8 @@
   "nextMatch": {
     "id": "537387",
     "utcDate": "2026-07-14T19:00:00Z",
-    "status": "TIMED",
-    "statusLabel": "未开始",
+    "status": "IN_PLAY",
+    "statusLabel": "进行中",
     "stage": "SEMI_FINALS",
     "stageLabel": "半决赛",
     "stageOrder": 50,
@@ -4203,8 +4203,8 @@
       "colorB": "#f1bf00"
     },
     "score": {
-      "home": null,
-      "away": null,
+      "home": 0,
+      "away": 0,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -5133,8 +5133,8 @@
           {
             "id": "537387",
             "utcDate": "2026-07-14T19:00:00Z",
-            "status": "TIMED",
-            "statusLabel": "未开始",
+            "status": "IN_PLAY",
+            "statusLabel": "进行中",
             "stage": "SEMI_FINALS",
             "stageLabel": "半决赛",
             "stageOrder": 50,
@@ -5155,8 +5155,8 @@
               "colorB": "#f1bf00"
             },
             "score": {
-              "home": null,
-              "away": null,
+              "home": 0,
+              "away": 0,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
