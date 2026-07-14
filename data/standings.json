@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-14T19:14:08Z",
+  "updatedAt": "2026-07-14T20:32:13Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -4075,11 +4075,11 @@
       },
       "score": {
         "home": 0,
-        "away": 0,
+        "away": 2,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "西班牙"
     },
     {
       "id": "537388",
@@ -4204,11 +4204,11 @@
     },
     "score": {
       "home": 0,
-      "away": 0,
+      "away": 2,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
-    "winner": null
+    "winner": "西班牙"
   },
   "knockout": {
     "rounds": [
@@ -5156,11 +5156,11 @@
             },
             "score": {
               "home": 0,
-              "away": 0,
+              "away": 2,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "西班牙"
           },
           {
             "id": "537388",
