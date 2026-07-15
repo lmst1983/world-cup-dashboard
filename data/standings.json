@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-14T21:35:31Z",
+  "updatedAt": "2026-07-15T06:14:10Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -4124,11 +4124,11 @@
       "group": null,
       "matchday": null,
       "homeTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "法国",
+        "english": "France",
+        "flag": "🇫🇷",
+        "colorA": "#0055a4",
+        "colorB": "#ef4135"
       },
       "awayTeam": {
         "name": "待定",
@@ -4156,11 +4156,11 @@
       "group": null,
       "matchday": null,
       "homeTeam": {
-        "name": "待定",
-        "english": "待定",
-        "flag": "🏳️",
-        "colorA": "#61727a",
-        "colorB": "#24323c"
+        "name": "西班牙",
+        "english": "Spain",
+        "flag": "🇪🇸",
+        "colorA": "#aa151b",
+        "colorB": "#f1bf00"
       },
       "awayTeam": {
         "name": "待定",
@@ -5211,11 +5211,11 @@
             "group": null,
             "matchday": null,
             "homeTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "法国",
+              "english": "France",
+              "flag": "🇫🇷",
+              "colorA": "#0055a4",
+              "colorB": "#ef4135"
             },
             "awayTeam": {
               "name": "待定",
@@ -5249,11 +5249,11 @@
             "group": null,
             "matchday": null,
             "homeTeam": {
-              "name": "待定",
-              "english": "待定",
-              "flag": "🏳️",
-              "colorA": "#61727a",
-              "colorB": "#24323c"
+              "name": "西班牙",
+              "english": "Spain",
+              "flag": "🇪🇸",
+              "colorA": "#aa151b",
+              "colorB": "#f1bf00"
             },
             "awayTeam": {
               "name": "待定",
