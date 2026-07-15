@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-15T20:06:22Z",
+  "updatedAt": "2026-07-15T21:13:27Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 101,
+    "playedMatches": 102,
     "totalMatches": 104,
-    "goals": 319,
+    "goals": 322,
     "averageGoals": 3.16,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
-    "knockoutPlayedMatches": 29
+    "knockoutPlayedMatches": 30
   },
   "groups": [
     {
@@ -4084,8 +4084,8 @@
     {
       "id": "537388",
       "utcDate": "2026-07-15T19:00:00Z",
-      "status": "PAUSED",
-      "statusLabel": "中场",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
       "stage": "SEMI_FINALS",
       "stageLabel": "半决赛",
       "stageOrder": 50,
@@ -4106,12 +4106,12 @@
         "colorB": "#ffffff"
       },
       "score": {
-        "home": 0,
-        "away": 0,
+        "home": 1,
+        "away": 2,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "阿根廷"
     },
     {
       "id": "537389",
@@ -4179,32 +4179,32 @@
     }
   ],
   "nextMatch": {
-    "id": "537388",
-    "utcDate": "2026-07-15T19:00:00Z",
-    "status": "PAUSED",
-    "statusLabel": "中场",
-    "stage": "SEMI_FINALS",
-    "stageLabel": "半决赛",
-    "stageOrder": 50,
+    "id": "537389",
+    "utcDate": "2026-07-18T21:00:00Z",
+    "status": "TIMED",
+    "statusLabel": "未开始",
+    "stage": "THIRD_PLACE",
+    "stageLabel": "季军赛",
+    "stageOrder": 60,
     "group": null,
     "matchday": null,
     "homeTeam": {
-      "name": "英格兰",
-      "english": "England",
-      "flag": "🏴",
-      "colorA": "#ffffff",
-      "colorB": "#ce1124"
+      "name": "法国",
+      "english": "France",
+      "flag": "🇫🇷",
+      "colorA": "#0055a4",
+      "colorB": "#ef4135"
     },
     "awayTeam": {
-      "name": "阿根廷",
-      "english": "Argentina",
-      "flag": "🇦🇷",
-      "colorA": "#74acdf",
-      "colorB": "#ffffff"
+      "name": "待定",
+      "english": "待定",
+      "flag": "🏳️",
+      "colorA": "#61727a",
+      "colorB": "#24323c"
     },
     "score": {
-      "home": 0,
-      "away": 0,
+      "home": null,
+      "away": null,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -5165,8 +5165,8 @@
           {
             "id": "537388",
             "utcDate": "2026-07-15T19:00:00Z",
-            "status": "PAUSED",
-            "statusLabel": "中场",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
             "stage": "SEMI_FINALS",
             "stageLabel": "半决赛",
             "stageOrder": 50,
@@ -5187,12 +5187,12 @@
               "colorB": "#ffffff"
             },
             "score": {
-              "home": 0,
-              "away": 0,
+              "home": 1,
+              "away": 2,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "阿根廷"
           }
         ]
       },
