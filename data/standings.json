@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-18T22:05:16Z",
+  "updatedAt": "2026-07-18T23:07:39Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -4116,8 +4116,8 @@
     {
       "id": "537389",
       "utcDate": "2026-07-18T21:00:00Z",
-      "status": "PAUSED",
-      "statusLabel": "中场",
+      "status": "IN_PLAY",
+      "statusLabel": "进行中",
       "stage": "THIRD_PLACE",
       "stageLabel": "季军赛",
       "stageOrder": 60,
@@ -4138,8 +4138,8 @@
         "colorB": "#ce1124"
       },
       "score": {
-        "home": 0,
-        "away": 4,
+        "home": 4,
+        "away": 6,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
@@ -4181,8 +4181,8 @@
   "nextMatch": {
     "id": "537389",
     "utcDate": "2026-07-18T21:00:00Z",
-    "status": "PAUSED",
-    "statusLabel": "中场",
+    "status": "IN_PLAY",
+    "statusLabel": "进行中",
     "stage": "THIRD_PLACE",
     "stageLabel": "季军赛",
     "stageOrder": 60,
@@ -4203,8 +4203,8 @@
       "colorB": "#ce1124"
     },
     "score": {
-      "home": 0,
-      "away": 4,
+      "home": 4,
+      "away": 6,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -5203,8 +5203,8 @@
           {
             "id": "537389",
             "utcDate": "2026-07-18T21:00:00Z",
-            "status": "PAUSED",
-            "statusLabel": "中场",
+            "status": "IN_PLAY",
+            "statusLabel": "进行中",
             "stage": "THIRD_PLACE",
             "stageLabel": "季军赛",
             "stageOrder": 60,
@@ -5225,8 +5225,8 @@
               "colorB": "#ce1124"
             },
             "score": {
-              "home": 0,
-              "away": 4,
+              "home": 4,
+              "away": 6,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
