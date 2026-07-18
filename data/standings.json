@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-16T08:31:28Z",
+  "updatedAt": "2026-07-18T22:05:16Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -4116,8 +4116,8 @@
     {
       "id": "537389",
       "utcDate": "2026-07-18T21:00:00Z",
-      "status": "TIMED",
-      "statusLabel": "未开始",
+      "status": "PAUSED",
+      "statusLabel": "中场",
       "stage": "THIRD_PLACE",
       "stageLabel": "季军赛",
       "stageOrder": 60,
@@ -4138,12 +4138,12 @@
         "colorB": "#ce1124"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 4,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "英格兰"
     },
     {
       "id": "537390",
@@ -4181,8 +4181,8 @@
   "nextMatch": {
     "id": "537389",
     "utcDate": "2026-07-18T21:00:00Z",
-    "status": "TIMED",
-    "statusLabel": "未开始",
+    "status": "PAUSED",
+    "statusLabel": "中场",
     "stage": "THIRD_PLACE",
     "stageLabel": "季军赛",
     "stageOrder": 60,
@@ -4203,12 +4203,12 @@
       "colorB": "#ce1124"
     },
     "score": {
-      "home": null,
-      "away": null,
+      "home": 0,
+      "away": 4,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
-    "winner": null
+    "winner": "英格兰"
   },
   "knockout": {
     "rounds": [
@@ -5203,8 +5203,8 @@
           {
             "id": "537389",
             "utcDate": "2026-07-18T21:00:00Z",
-            "status": "TIMED",
-            "statusLabel": "未开始",
+            "status": "PAUSED",
+            "statusLabel": "中场",
             "stage": "THIRD_PLACE",
             "stageLabel": "季军赛",
             "stageOrder": 60,
@@ -5225,12 +5225,12 @@
               "colorB": "#ce1124"
             },
             "score": {
-              "home": null,
-              "away": null,
+              "home": 0,
+              "away": 4,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "英格兰"
           }
         ]
       },
