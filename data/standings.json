@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-19T20:23:14Z",
+  "updatedAt": "2026-07-19T21:12:31Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -4148,8 +4148,8 @@
     {
       "id": "537390",
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "PAUSED",
-      "statusLabel": "中场",
+      "status": "IN_PLAY",
+      "statusLabel": "进行中",
       "stage": "FINAL",
       "stageLabel": "决赛",
       "stageOrder": 70,
@@ -4181,8 +4181,8 @@
   "nextMatch": {
     "id": "537390",
     "utcDate": "2026-07-19T19:00:00Z",
-    "status": "PAUSED",
-    "statusLabel": "中场",
+    "status": "IN_PLAY",
+    "statusLabel": "进行中",
     "stage": "FINAL",
     "stageLabel": "决赛",
     "stageOrder": 70,
@@ -5241,8 +5241,8 @@
           {
             "id": "537390",
             "utcDate": "2026-07-19T19:00:00Z",
-            "status": "PAUSED",
-            "statusLabel": "中场",
+            "status": "IN_PLAY",
+            "statusLabel": "进行中",
             "stage": "FINAL",
             "stageLabel": "决赛",
             "stageOrder": 70,
