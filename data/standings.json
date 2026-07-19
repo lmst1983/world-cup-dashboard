@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-19T00:07:12Z",
+  "updatedAt": "2026-07-19T19:29:09Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -4148,8 +4148,8 @@
     {
       "id": "537390",
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "TIMED",
-      "statusLabel": "未开始",
+      "status": "LIVE",
+      "statusLabel": "状态未知",
       "stage": "FINAL",
       "stageLabel": "决赛",
       "stageOrder": 70,
@@ -4170,8 +4170,8 @@
         "colorB": "#ffffff"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
@@ -4181,8 +4181,8 @@
   "nextMatch": {
     "id": "537390",
     "utcDate": "2026-07-19T19:00:00Z",
-    "status": "TIMED",
-    "statusLabel": "未开始",
+    "status": "LIVE",
+    "statusLabel": "状态未知",
     "stage": "FINAL",
     "stageLabel": "决赛",
     "stageOrder": 70,
@@ -4203,8 +4203,8 @@
       "colorB": "#ffffff"
     },
     "score": {
-      "home": null,
-      "away": null,
+      "home": 0,
+      "away": 0,
       "penaltiesHome": null,
       "penaltiesAway": null
     },
@@ -5241,8 +5241,8 @@
           {
             "id": "537390",
             "utcDate": "2026-07-19T19:00:00Z",
-            "status": "TIMED",
-            "statusLabel": "未开始",
+            "status": "LIVE",
+            "statusLabel": "状态未知",
             "stage": "FINAL",
             "stageLabel": "决赛",
             "stageOrder": 70,
@@ -5263,8 +5263,8 @@
               "colorB": "#ffffff"
             },
             "score": {
-              "home": null,
-              "away": null,
+              "home": 0,
+              "away": 0,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
