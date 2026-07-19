@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "competition": "FIFA World Cup 2026",
-  "updatedAt": "2026-07-19T21:12:31Z",
+  "updatedAt": "2026-07-19T22:08:08Z",
   "source": {
     "id": "football-data",
     "label": "football-data.org 自动同步",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "teams": 48,
-    "playedMatches": 103,
+    "playedMatches": 104,
     "totalMatches": 104,
-    "goals": 332,
-    "averageGoals": 3.22,
+    "goals": 333,
+    "averageGoals": 3.2,
     "groupPlayedMatches": 72,
     "groupTotalMatches": 72,
     "groupGoals": 215,
-    "knockoutPlayedMatches": 31
+    "knockoutPlayedMatches": 32
   },
   "groups": [
     {
@@ -4148,8 +4148,8 @@
     {
       "id": "537390",
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "IN_PLAY",
-      "statusLabel": "进行中",
+      "status": "FINISHED",
+      "statusLabel": "已完赛",
       "stage": "FINAL",
       "stageLabel": "决赛",
       "stageOrder": 70,
@@ -4170,46 +4170,15 @@
         "colorB": "#ffffff"
       },
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0,
         "penaltiesHome": null,
         "penaltiesAway": null
       },
-      "winner": null
+      "winner": "西班牙"
     }
   ],
-  "nextMatch": {
-    "id": "537390",
-    "utcDate": "2026-07-19T19:00:00Z",
-    "status": "IN_PLAY",
-    "statusLabel": "进行中",
-    "stage": "FINAL",
-    "stageLabel": "决赛",
-    "stageOrder": 70,
-    "group": null,
-    "matchday": null,
-    "homeTeam": {
-      "name": "西班牙",
-      "english": "Spain",
-      "flag": "🇪🇸",
-      "colorA": "#aa151b",
-      "colorB": "#f1bf00"
-    },
-    "awayTeam": {
-      "name": "阿根廷",
-      "english": "Argentina",
-      "flag": "🇦🇷",
-      "colorA": "#74acdf",
-      "colorB": "#ffffff"
-    },
-    "score": {
-      "home": 0,
-      "away": 0,
-      "penaltiesHome": null,
-      "penaltiesAway": null
-    },
-    "winner": null
-  },
+  "nextMatch": null,
   "knockout": {
     "rounds": [
       {
@@ -5241,8 +5210,8 @@
           {
             "id": "537390",
             "utcDate": "2026-07-19T19:00:00Z",
-            "status": "IN_PLAY",
-            "statusLabel": "进行中",
+            "status": "FINISHED",
+            "statusLabel": "已完赛",
             "stage": "FINAL",
             "stageLabel": "决赛",
             "stageOrder": 70,
@@ -5263,12 +5232,12 @@
               "colorB": "#ffffff"
             },
             "score": {
-              "home": 0,
+              "home": 1,
               "away": 0,
               "penaltiesHome": null,
               "penaltiesAway": null
             },
-            "winner": null
+            "winner": "西班牙"
           }
         ]
       }
